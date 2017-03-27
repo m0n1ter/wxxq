@@ -1,0 +1,10 @@
+*/
+*.txt
+*.bak
+*.csv
+*.data
+*.log
+*.py[cod]
+*.so
+*.egg
+*.egg-info
