@@ -22,9 +22,9 @@ if sys.getdefaultencoding() != default_encoding:
 
 # base_url = "http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value="
 post_param = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value={"IsBus": False, "Filter": "0", "Catalog": "", "IsGaoTie":False, "IsDongChe":False, "CatalogName": "", "DepartureCity": %s, "ArrivalCity": %s, "HubCity": "", "DepartureCityName": %s, "ArrivalCityName": %s, "DepartureDate": "2017-03-24", "DepartureDateReturn": "2017-03-26", "ArrivalDate": "", "TrainNumber": ""}'
-base_path = 'xc-price/%s.json'
-getStations_sql = 'select id,begin_stop,end_stop from train_stop_20170331_task_xc where task=0 limit 100'
-update_sql = 'update train_stop_20170331_task_xc set task = 1 where id =%s'
+base_path = 'xc-station-pages/%s.json'
+getStations_sql = 'select id,begin_stop,end_stop from train_stop_20170331_task where task=0 limit 100'
+update_sql = 'update train_stop_20170331_task set task = 1 where id =%s'
 def  get(p):
     time.sleep(1)
     content = ''
@@ -141,7 +141,9 @@ class Produce_Work(threading.Thread):
                 break
 
 if __name__ == "__main__":
-    if not os.path.exists('xc-price'):
-        os.mkdir('xc-price')
-    center = ScheduleCenter(1)
+    if not os.path.exists('xc-station-pages'):
+        os.mkdir('xc-station-pages')
+    else:
+        print 'xc-station-pages path exists!'
+    # center = ScheduleCenter(1)
     # driver.quit()
