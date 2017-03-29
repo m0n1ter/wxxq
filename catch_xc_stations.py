@@ -20,13 +20,15 @@ if sys.getdefaultencoding() != default_encoding:
     reload(sys)
     sys.setdefaultencoding(default_encoding)
 
-# base_url = "http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value="
-post_param = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value={"IsBus": False, "Filter": "0", "Catalog": "", "IsGaoTie":False, "IsDongChe":False, "CatalogName": "", "DepartureCity": %s, "ArrivalCity": %s, "HubCity": "", "DepartureCityName": %s, "ArrivalCityName": %s, "DepartureDate": "2017-03-24", "DepartureDateReturn": "2017-03-26", "ArrivalDate": "", "TrainNumber": ""}'
-base_path = 'xc-price/%s.json'
-getStations_sql = 'select id,begin_stop,end_stop from train_stop_20170331_task_xc where task=0 limit 100'
+base_url = "http://trains.ctrip.com/TrainBooking/Ajax/GetTrainDataV2.aspx?DepartureCity=%s&ArrivalCity=%s&DepartureDate=2017-03-30&NO=01"
+# post_param = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value={"IsBus": False, "Filter": "0", "Catalog": "", "IsGaoTie":False, "IsDongChe":False, "CatalogName": "", "DepartureCity": %s, "ArrivalCity": %s, "HubCity": "", "DepartureCityName": %s, "ArrivalCityName": %s, "DepartureDate": "2017-03-24", "DepartureDateReturn": "2017-03-26", "ArrivalDate": "", "TrainNumber": ""}'
+base_path = 'xc-price/%s'
+getStations_sql = 'select id,begin_stop,begin_alia,end_stop,end_alia from train_stop_20170331_task_xc where task=0 limit 100'
 update_sql = 'update train_stop_20170331_task_xc set task = 1 where id =%s'
+py_util = PinYin()
+py_util.load_word('word.data')
 def  get(p):
-    time.sleep(1)
+    time.sleep(10)
     content = ''
     try:
        p = p.encode('utf-8')
@@ -72,14 +74,14 @@ def getStations():
     conn.close()
     return stations
 
-def getTrainInfoByStation(startStation,endStation,s_py,e_py,id):
-    item_url = post_param % (s_py,e_py,startStation,endStation)
+def getTrainInfoByStation(s_py,e_py,id,file_name):
+    item_url = base_url % (s_py,e_py)
     content = get(item_url)
     if content == '500':
         # 网络异常
         return ''
     print item_url
-    file_path = base_path % id
+    file_path = base_path % file_name
     with open(file_path,'w') as f:
             f.write(content)
             f.flush()
@@ -88,12 +90,15 @@ def getTrainInfoByStation(startStation,endStation,s_py,e_py,id):
     update(item_sql)
 
 # job start
-def consume_job(startStation,endStation,id):
-    py_util = PinYin()
-    py_util.load_word('word.data')
-    s_py = py_util.hanzi2pinyin_split(string=startStation, split="", firstcode=False)
-    e_py = py_util.hanzi2pinyin_split(string=endStation, split="", firstcode=False)
-    getTrainInfoByStation(startStation,endStation,s_py,e_py,id)
+def consume_job(id,startStation,start_alia,endStation,end_alia):
+    file_name = '%s-%s-%s.html' % (id,start_alia,end_alia)
+    s_py = start_alia
+    e_py = end_alia
+    if start_alia == '#N/A':
+        s_py = py_util.hanzi2pinyin_split(string=startStation, split="", firstcode=False)
+    if end_alia == '#N/A':
+        e_py = py_util.hanzi2pinyin_split(string=endStation, split="", firstcode=False)
+    getTrainInfoByStation(s_py,e_py,id,file_name)
 
 class ScheduleCenter(object):
     def __init__(self,threadNum=10):
@@ -119,8 +124,8 @@ class Consume_Work(threading.Thread):
     def run(self):
         while True:
             try:
-                startStation,endStation,id = self.queue.get()
-                consume_job(startStation,endStation,id)
+                id,startStation,start_alia,endStation,end_alia = self.queue.get()
+                consume_job(id,startStation,start_alia,endStation,end_alia)
             except Exception as e:
                 print '%s:jobing:%s' % (threading.currentThread(),e)
 
@@ -135,8 +140,8 @@ class Produce_Work(threading.Thread):
             stations = getStations()
             length = len(stations)
             for s in stations:
-                self.queue.put((s[1],s[2],s[0]))
-            time.sleep(100)
+                self.queue.put((s[0],s[1],s[2],s[3],s[4]))
+            time.sleep(1000)
             if length < 100:
                 break
 
