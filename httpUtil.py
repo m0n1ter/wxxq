@@ -10,6 +10,8 @@ class httpUtil(object):
     version = 1.0
     def __init__(self, proxys = []):
         self.proxy_ip = proxys
+
+    @classmethod
     def  get(self,p,charset='utf-8',second = 1):
         time.sleep(second)
         content = ''
@@ -24,6 +26,7 @@ class httpUtil(object):
             content = '500'
         return content
 
+    @classmethod
     def post(self,req,body,head,charset='utf-8',second = 1):
         time.sleep(second)
         content = ''

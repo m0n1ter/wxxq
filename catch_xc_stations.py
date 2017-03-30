@@ -28,7 +28,7 @@ update_sql = 'update train_stop_20170331_task_xc set task = 1 where id =%s'
 py_util = PinYin()
 py_util.load_word('word.data')
 def  get(p):
-    time.sleep(10)
+    time.sleep(1)
     content = ''
     try:
        p = p.encode('utf-8')
@@ -91,13 +91,17 @@ def getTrainInfoByStation(s_py,e_py,id,file_name):
 
 # job start
 def consume_job(id,startStation,start_alia,endStation,end_alia):
-    file_name = '%s-%s-%s.html' % (id,start_alia,end_alia)
     s_py = start_alia
     e_py = end_alia
+    s = start_alia
+    e = end_alia
     if start_alia == '#N/A':
+        s = 'NAN'
         s_py = py_util.hanzi2pinyin_split(string=startStation, split="", firstcode=False)
     if end_alia == '#N/A':
+        e = 'NAN'
         e_py = py_util.hanzi2pinyin_split(string=endStation, split="", firstcode=False)
+    file_name = '%s-%s-%s.html' % (id,s,e)
     getTrainInfoByStation(s_py,e_py,id,file_name)
 
 class ScheduleCenter(object):
