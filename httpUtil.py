@@ -54,12 +54,28 @@ class httpUtil(object):
         time.sleep(second)
         content = ''
         random_ip_i = random.randint(0,len(self.proxy_ip)-1)
-        proxy = self.proxy_ip[random_ip_i]
+        item = self.proxy_ip[random_ip_i]
+        proxy = '%s:%s' % (item[1],item[2])
         try:
             proxy_handler = urllib2.ProxyHandler({'http': proxy})
             opener = urllib2.build_opener(proxy_handler)
-            r = opener.open(p)
-            return r.read().decode('UTF-8')
+            r = opener.open(p,timeout=10)
+            content =  r.read()
+        except Exception as e:
+            print 'Thread:%swhen catching url`s error:%s'% (threading.currentThread(),e)
+            content = '500'
+        return content
+
+    @classmethod
+    def getByProxyParam(self ,p,ip,port,second = 1):
+        time.sleep(second)
+        content = ''
+        proxy = '%s:%s' % (ip,port)
+        try:
+            proxy_handler = urllib2.ProxyHandler({'http': proxy})
+            opener = urllib2.build_opener(proxy_handler)
+            r = opener.open(p,timeout=5)
+            content = r.read()
         except Exception as e:
             print 'Thread:%swhen catching url`s error:%s'% (threading.currentThread(),e)
             content = '500'

@@ -14,6 +14,6 @@ class TimeoutError(Exception):
 # raise TimeoutError('reere')
 # raise HostResolvedError('reere')
 
-all = os.listdir('D:/Py_workspacce/trains/xc-not-exist')
+all = os.listdir('D:/12306trains')
 for i in all:
     print i

@@ -15,11 +15,11 @@ from DBUtils.PooledDB import PooledDB
 # pool = PooledDB(MySQLdb,5,host='192.100.2.31',user='data',passwd='opensesame',db='traincrawler',port=3306)
 pool = None
 ist_sql_patter = "insert into train_line_stop_test(train_code,name,sequence,arrive_time,staytime,days,duration,depart_time,grade)value('%s','%s',%s,'%s',%s,%s,%s,'%s','%s')"
-base_str = "%s,%s,%s,%s,%s,%s,%s,%s,%s\n"
+base_str = "%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n"
 check_added_sql = "select count(*) from train_line_stop_test where train_code = '%s'"
 delete_added_sql = "delete from train_line_stop_test where train_code = '%s'"
-ss = open('all-12306-train-stations.csv','w')
-# log = open('no-all-station-2-12306.csv','w')
+# ss = open('added12306station.csv','w')
+log = open('no-all-station-2-12306.csv','w')
 total = 0
 def insert_train_ss(sql):
      conn = pool.connection()
@@ -103,25 +103,27 @@ def parse_ss_json(content,no):
                 depart_time = 'null'
             # item_sql = ist_sql_patter % (trainNo,station['stationName'],station['stationNo'],arrive_time,station['overTime'],0,duration,depart_time,typeName)
             # insert_train_ss(item_sql)
-            item_str = base_str % (no,d['station_name'],int(d['station_no']),arrive_time,stayTime,days,duration,depart_time,typeName)
-            ss.write(item_str)
-            # name_list.update({d['station_no']:d['station_name']})
+            # item_str = base_str % (no,d['station_name'],int(d['station_no']),arrive_time,stayTime,days,duration,depart_time,typeName,train_no_id[no])
+            # ss.write(item_str)
+            name_list.update({d['station_no']:d['station_name']})
          # 输出站到站
         num = len(name_list)
         kvs = name_list.items()
         global total
         total +=len(data)
         i = -1
-        # print name_list
-        # for ki,vi in kvs:
-        #     i += 1
-        #     j = -1
-        #     for kj,vj in  kvs:
-        #         j += 1
-        #         if i == j:
-        #             continue
-        #         log.write('%s,%s,%s,%s,%s,%s,%s\n' % (no,ki,vi,kj,vj,train_no_id[no],train_no_date[no]))
+        print name_list
+        for ki,vi in kvs:
+            i += 1
+            j = -1
+            for kj,vj in  kvs:
+                j += 1
+                if i == j:
+                    continue
+                # log.write('%s,%s,%s,%s,%s,%s,%s\n' % (no,ki,vi,kj,vj,train_no_id[no],train_no_date[no]))
                 # print '%s,%s,%s,%s,%s,%s,%s\n' % (no,ki,vi,kj,vj,train_no_id[no],train_no_date[no])
+                log.write('%s,%s\n' % (vi,vj))
+                print '%s,%s\n' % (vi,vj)
 
 def exist(no,trains):
     e = 0

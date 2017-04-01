@@ -16,7 +16,7 @@ class ProxyUtil(object):
         self.queue = Queue.Queue()
         self.threadNum = threadNum
         self.threadPool = []
-        self.useful_proxy = Queue.Queue()
+        self.useful_proxy = []
         self.proxyNum = 0
 
     def setProxyNum(self,n):
@@ -34,7 +34,7 @@ class ProxyUtil(object):
         for t in self.threadPool:
             del t
 
-        print '代理检查完毕，可用代理数量:%s' % self.useful_proxy.qsize()
+        print '代理检查完毕，可用代理数量:%s' % len(self.useful_proxy)
 
     def getProxy(self):
         return self.useful_proxy
@@ -60,12 +60,12 @@ class checkProxy(threading.Thread):
                 except Exception as e:
                     print  e
                     break
-                response = httpUtil.get(self.url)
+                response = httpUtil.getByProxyParam(self.url,item[1],item[2])
                 if response == '' or response == '500':
                     print '%s:%s代理不可用' % (item[1],item[2])
                 else:
                     print '%s:%s代理可用' % (item[1],item[2])
-                    self.useful_proxy.put(item)
+                    self.useful_proxy.append(item)
                 lock.acquire()
                 try:
                     ProxyUtil.proxyNum -= 1
@@ -76,7 +76,7 @@ class checkProxy(threading.Thread):
 
 if __name__ == '__main__':
     sqlSessionFactory('192.100.2.31','data','opensesame','traincrawler',10)
-    util = ProxyUtil('http://api.sports.sina.com.cn/?p=nba&s=match&a=dateMatches&format=json&callback=NBA_JSONP_CALLBACK&date=2017-03-30&dpc=1')
+    util = ProxyUtil('http://api.sports.sina.com.cn/?p=nba&s=match&a=dateMatches&format=json&callback=NBA_JSONP_CALLBACK&date=2017-03-30&dpc=1',20)
     util.jobStart(sqlSessionFactory)
 
 

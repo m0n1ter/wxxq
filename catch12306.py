@@ -62,7 +62,7 @@ def getByProxy(p,proxy):
 def save_train_info(train_info,no):
     # {"trainNum": "D1", "departure": "北京", "arrive": "沈阳","date": "2017-03-25"}
     train_file_name = no+".html"
-    last_file_path = 'train-stations-12306/%s'% train_file_name
+    last_file_path = 'added12306/%s'% train_file_name
     if os.path.exists(last_file_path):
         print '%s has exist!' % train_file_name
     else:
@@ -127,8 +127,8 @@ class Work(threading.Thread):
 
 if __name__ == "__main__":
 
-    if not os.path.exists('train-stations-12306'):
-        os.mkdir('train-stations-12306')
+    if not os.path.exists('added12306'):
+        os.mkdir('added12306')
     else:
         print 'station info path exists!'
     train_url = open(train_url_name)
