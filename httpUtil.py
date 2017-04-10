@@ -6,6 +6,8 @@ import time
 import random
 import threading
 import cookielib
+import ssl
+context = ssl._create_unverified_context()
 class httpUtil(object):
     version = 1.0
     def __init__(self, proxys = []):
@@ -66,6 +68,23 @@ class httpUtil(object):
             content = '500'
         return content
 
+    def getByProxyNoSSL(self ,p,second = 1):
+        time.sleep(second)
+        content = ''
+        random_ip_i = random.randint(0,len(self.proxy_ip)-1)
+        item = self.proxy_ip[random_ip_i]
+        proxy = '%s:%s' % (item[1],item[2])
+        try:
+            proxy_handler = urllib2.ProxyHandler({'http': proxy})
+            opener = urllib2.build_opener(proxy_handler)
+            urllib2.install_opener(opener)
+            r = urllib2.urlopen(p,timeout=10,context=context)
+            content =  r.read()
+        except Exception as e:
+            print 'Thread:%swhen catching url`s error:%s'% (threading.currentThread(),e)
+            content = '500'
+        return content
+
     @classmethod
     def getByProxyParam(self ,p,ip,port,second = 1):
         time.sleep(second)
@@ -85,9 +104,9 @@ class httpUtil(object):
 if __name__ == "__main__":
     util = httpUtil()
     # print util.get('http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value={"IsBus":false,"Filter":"0","Catalog":"","IsGaoTie":false,"IsDongChe":false,"CatalogName":"","DepartureCity":"yimianpo","ArrivalCity":"chenggaozi","HubCity":"","DepartureCityName":"一面坡","ArrivalCityName":"成高子","DepartureDate":"2017-03-29","DepartureDateReturn":"2017-03-31","ArrivalDate":"","TrainNumber":""}','gb2312')
-    req = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList'
-    body ={'value':'{"IsBus":false,"Filter":"0","Catalog":"","IsGaoTie":false,"IsDongChe":false,"CatalogName":"","DepartureCity":"wanyuan","ArrivalCity":"xiaohezhen","HubCity":"","DepartureCityName":"万源","ArrivalCityName":"小河镇","DepartureDate":"2017-03-29","DepartureDateReturn":"2017-03-31","ArrivalDate":"","TrainNumber":""}'}
-    # head = { 'If-Modified-Since':'Thu, 01 Jan 1970 00:00:00 GMT','Origin':'http://trains.ctrip.com','Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8','Host':'trains.ctrip.com','Referer':'http://trains.ctrip.com/TrainBooking/Search.aspx?from=quzhou&to=hangzhou&day=2&number=&fromCn=%E1%E9%D6%DD&toCn=%BA%BC%D6%DD'}
-    # head.update({"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"})
-    head = {'Referer':'http://trains.ctrip.com/TrainBooking/Search.aspx?from=beijing&to=shanghai&day=2&number=&fromCn=%B1%B1%BE%A9&toCn=%C9%CF%BA%A3'}
-    print util.post(req,body,{},'gb2312')
+    # req = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList'
+    # body ={'value':'{"IsBus":false,"Filter":"0","Catalog":"","IsGaoTie":false,"IsDongChe":false,"CatalogName":"","DepartureCity":"wanyuan","ArrivalCity":"xiaohezhen","HubCity":"","DepartureCityName":"万源","ArrivalCityName":"小河镇","DepartureDate":"2017-03-29","DepartureDateReturn":"2017-03-31","ArrivalDate":"","TrainNumber":""}'}
+    # # head = { 'If-Modified-Since':'Thu, 01 Jan 1970 00:00:00 GMT','Origin':'http://trains.ctrip.com','Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8','Host':'trains.ctrip.com','Referer':'http://trains.ctrip.com/TrainBooking/Search.aspx?from=quzhou&to=hangzhou&day=2&number=&fromCn=%E1%E9%D6%DD&toCn=%BA%BC%D6%DD'}
+    # # head.update({"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"})
+    # head = {'Referer':'http://trains.ctrip.com/TrainBooking/Search.aspx?from=beijing&to=shanghai&day=2&number=&fromCn=%B1%B1%BE%A9&toCn=%C9%CF%BA%A3'}
+    # print util.post(req,body,{},'gb2312')

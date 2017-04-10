@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 """" 抓取携程的每列车的所有站信息根据列车号来抓取"""
 import time
-import datetime
 import urllib
 import urllib2
 import os
@@ -20,31 +19,17 @@ if sys.getdefaultencoding() != default_encoding:
     sys.setdefaultencoding(default_encoding)
 
 # base_url = "http://trains.ctrip.com/TrainBooking/Ajax/GetTrainDataV2.aspx?DepartureCity=%s&ArrivalCity=%s&DepartureDate=2017-04-02&NO=01"
-post_param = 'http://kyfw.12306.cn/otn/leftTicket/queryTicketPrice?train_no=%s&from_station_no=%s&to_station_no=%s&seat_types=%s&train_date='
-base_path = '12306-price-json/%s'
-getStations_sql = 'select id,tno,tdate,start_no,end_no,tid,seat_type from 12306trains where task=0 limit 1000'
-update_sql = 'update 12306trains set task = 1 where id =%s'
+post_param = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value={"IsBus": False, "Filter": "0", "Catalog": "", "IsGaoTie":False, "IsDongChe":False, "CatalogName": "", "DepartureCity": %s, "ArrivalCity": %s, "HubCity": "", "DepartureCityName": %s, "ArrivalCityName": %s, "DepartureDate": "2017-04-05", "DepartureDateReturn": "2017-03-26", "ArrivalDate": "", "TrainNumber": ""}'
+base_path = 'xc-price-json/%s'
+getStations_sql = 'select id,begin_stop,begin_alia,end_stop,end_alia from train_stop__task_xc where task=0 limit 1000'
+update_sql = 'update train_stop__task_xc set task = 1 where id =%s'
 py_util = PinYin()
 py_util.load_word('word.data')
 factory = None
 http_util = None
-def getTrainInfoByStation(id,tno,tdate,startno,endno,tid,seat_type,file_name):
-    b_url = post_param % (tid,startno,endno,seat_type)
-    item_url = b_url + tdate
-    content = ''
-    num = 0
-    while num<5:
-        content = http_util.getByProxyNoSSL(item_url,1)
-        if content == '':
-            d = datetime.datetime.strptime(tdate,'%Y-%m-%d')
-            delta=datetime.timedelta(days=1)
-            n_days=d+delta
-            tdate = n_days.strftime('%Y-%m-%d')
-            item_url = b_url + tdate
-            content = http_util.getByProxy(item_url,1)
-            num+=1
-        else:
-            break
+def getTrainInfoByStation(s_py,e_py,id,file_name,ss,es):
+    item_url = post_param % (s_py,e_py,ss,es)
+    content = http_util.getByProxy(item_url,1)
     if content == '500':
         # 网络异常
         return ''
@@ -58,10 +43,19 @@ def getTrainInfoByStation(id,tno,tdate,startno,endno,tid,seat_type,file_name):
     factory.execute(item_sql)
 
 # job start
-def consume_job(id,tno,tdate,startno,endno,tid,seat_type):
-
-    file_name = '%s.json' % (id)
-    getTrainInfoByStation(id,tno,tdate,startno,endno,tid,seat_type,file_name)
+def consume_job(id,startStation,start_alia,endStation,end_alia):
+    s_py = start_alia
+    e_py = end_alia
+    s = start_alia
+    e = end_alia
+    if start_alia == '#N/A':
+        s = 'NAN'
+        s_py = py_util.hanzi2pinyin_split(string=startStation, split="", firstcode=False)
+    if end_alia == '#N/A':
+        e = 'NAN'
+        e_py = py_util.hanzi2pinyin_split(string=endStation, split="", firstcode=False)
+    file_name = '%s-%s-%s.html' % (id,s,e)
+    getTrainInfoByStation(s_py,e_py,id,file_name,startStation,endStation)
 
 class ScheduleCenter(object):
     def __init__(self,threadNum=10):
@@ -87,8 +81,8 @@ class Consume_Work(threading.Thread):
     def run(self):
         while True:
             try:
-                id,tno,tdate,startno,endno,tid,seat_type = self.queue.get()
-                consume_job(id,tno,tdate,startno,endno,tid,seat_type)
+                id,startStation,start_alia,endStation,end_alia = self.queue.get()
+                consume_job(id,startStation,start_alia,endStation,end_alia)
             except Exception as e:
                 print '%s:jobing:%s' % (threading.currentThread(),e)
 
@@ -104,7 +98,7 @@ class Produce_Work(threading.Thread):
                 stations = factory.select(getStations_sql)
                 length = len(stations)
                 for s in stations:
-                    self.queue.put((s[0],s[1],s[2],s[3],s[4],s[5],s[6]))
+                    self.queue.put((s[0],s[1],s[2],s[3],s[4]))
                 if length < 1000:
                     break
             else:
@@ -113,7 +107,7 @@ class Produce_Work(threading.Thread):
 def main():
     # 1.检测可用代理
     global factory
-    factory = sqlSessionFactory('172.16.19.203','data','opensesame','img_upload',10)
+    factory = sqlSessionFactory('192.100.2.31','data','opensesame','traincrawler',10)
     util = ProxyUtil('http://api.sports.sina.com.cn/?p=nba&s=match&a=dateMatches&format=json&callback=NBA_JSONP_CALLBACK&date=2017-03-30&dpc=1')
     util.jobStart(factory)
     useful_proxy = util.getProxy()
@@ -124,6 +118,6 @@ def main():
 
 
 if __name__ == "__main__":
-    if not os.path.exists('12306-price-json'):
-        os.mkdir('12306-price-json')
+    if not os.path.exists('xc-price-json'):
+        os.mkdir('xc-price-json')
     main()
