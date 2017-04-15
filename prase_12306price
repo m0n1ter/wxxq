@@ -1,0 +1,77 @@
+# -*- coding: UTF-8 -*-
+import codecs
+from lxml import etree
+import json
+from MysqlUtil import sqlSessionFactory
+import sys
+reload(sys)
+import os
+default_encoding = 'utf-8'
+if sys.getdefaultencoding() != default_encoding:
+    reload(sys)
+    sys.setdefaultencoding(default_encoding)
+
+base_dir = '12306-price-json/'
+findCodeByIdSql = 'select tno,start_station,tid,seat_type,end_station from 12306trains where id =%s'
+findStationSql = "select * from train_line_stop where train_code ='%s' and name ='%s'"
+getBegin2EndSql = "select name from train_line_stop where train_code = '%s' and (depart_time is NULL or arrive_time is NULL) ORDER BY sequence"
+insert_price_sql = "insert INTO train_price_qn_tmp(train_code,name,from_name,start_time,end_time,duration,hard_seat,soft_seat,hard_bed_1,soft_bed_1,class_1,class_2,high_grade_bed_1,business_seat,grade,days,premium_seat,origin_stop,terminal,sequence,train_no,staytime) values('%s','%s','%s','%s','%s',%s,%s,%s,%s,%s,%s,%s,%s,%s,'%s',%s,%s,'%s','%s',%s,'%s',%s)"
+factory = sqlSessionFactory('172.16.19.203','data','opensesame','img_upload',10)
+
+def getPriceByKey(k,price_dic):
+    p = 0
+    if k in price_dic:
+        p = price_dic[k]
+        if p:
+           p = p[1:]
+    return p
+
+
+def parseHtml(path,id):
+    item = factory.select(findCodeByIdSql % id)
+    train_code = item[0][0]
+    start_station = item[0][1]
+    tid = item[0][2]
+    seat_type = item[0][3]
+    end_station = item[0][4]
+    station = factory.select(findStationSql % (train_code,end_station))
+    b2e = factory.select(getBegin2EndSql % train_code)
+    sequence = station[0][3]
+    arrive_time = station[0][4]
+    stayTime = station[0][5]
+    days = station[0][6]
+    duration = station[0][7]
+    departTime = station[0][8]
+    grade = station[0][9]
+    origin = b2e[0][0]
+    terminal = b2e[1][0]
+    html_io = codecs.open(path, 'r', 'utf-8')
+    content = html_io.read()
+    html_io.flush()
+    html_io.close()
+    price_json = json.loads(content)
+    price_dic = price_json['data']
+    A1 = getPriceByKey('A1',price_dic)
+    A3 = getPriceByKey('A3',price_dic)
+    A4 = getPriceByKey('A4',price_dic)
+    A6 = getPriceByKey('A6',price_dic)
+    A9 = getPriceByKey('A9',price_dic)
+    O = getPriceByKey('O',price_dic)
+    M = getPriceByKey('M',price_dic)
+    item_sql = insert_price_sql % (train_code,end_station,start_station,departTime,arrive_time,duration,A1,0,A3,A4,O,M,A6,A9,grade,days,0,origin,terminal,sequence,tid,stayTime)
+    factory.execute(item_sql)
+
+def main():
+    files = os.listdir(base_dir)
+    for f in files:
+        item_path = '%s%s' % (base_dir,f)
+        id = f[0:f.rindex('.')]
+        print item_path
+        try:
+            parseHtml(item_path,id)
+        except Exception as e:
+            print e
+
+if __name__ == "__main__":
+    main()
+    # parseHtml('D:/Py_workspacce/12306-price-json/93954.json','93954')

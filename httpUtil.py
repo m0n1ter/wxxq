@@ -7,7 +7,7 @@ import random
 import threading
 import cookielib
 import ssl
-context = ssl._create_unverified_context()
+ssl._create_default_https_context = ssl._create_unverified_context
 class httpUtil(object):
     version = 1.0
     def __init__(self, proxys = []):
@@ -69,7 +69,6 @@ class httpUtil(object):
         return content
 
     def getByProxyNoSSL(self ,p,second = 1):
-        time.sleep(second)
         content = ''
         random_ip_i = random.randint(0,len(self.proxy_ip)-1)
         item = self.proxy_ip[random_ip_i]
@@ -77,14 +76,26 @@ class httpUtil(object):
         try:
             proxy_handler = urllib2.ProxyHandler({'http': proxy})
             opener = urllib2.build_opener(proxy_handler)
-            urllib2.install_opener(opener)
-            r = urllib2.urlopen(p,timeout=10,context=context)
+            r = opener.open(p,timeout=10)
+            content =  r.read()
+        except Exception as e:
+            print 'Thread:%swhen catching url`s error:%s'% (threading.currentThread(),e)
+            content = '500'
+            # time.sleep(0.5)
+        return content
+
+    def getByProxyNoSSL2(self ,p,second = 1):
+        time.sleep(second)
+        content = ''
+        try:
+            proxy_handler = urllib2.ProxyHandler({'http': '180.169.59.222:8080'})
+            opener = urllib2.build_opener(proxy_handler)
+            r = opener.open(p,timeout=10)
             content =  r.read()
         except Exception as e:
             print 'Thread:%swhen catching url`s error:%s'% (threading.currentThread(),e)
             content = '500'
         return content
-
     @classmethod
     def getByProxyParam(self ,p,ip,port,second = 1):
         time.sleep(second)
@@ -103,6 +114,7 @@ class httpUtil(object):
 
 if __name__ == "__main__":
     util = httpUtil()
+    print util.getByProxyNoSSL2('https://kyfw.12306.cn/otn/leftTicket/queryTicketPrice?train_no=7700000Z9601&from_station_no=09&to_station_no=12&seat_types=1463&train_date=2017-03-29')
     # print util.get('http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value={"IsBus":false,"Filter":"0","Catalog":"","IsGaoTie":false,"IsDongChe":false,"CatalogName":"","DepartureCity":"yimianpo","ArrivalCity":"chenggaozi","HubCity":"","DepartureCityName":"一面坡","ArrivalCityName":"成高子","DepartureDate":"2017-03-29","DepartureDateReturn":"2017-03-31","ArrivalDate":"","TrainNumber":""}','gb2312')
     # req = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList'
     # body ={'value':'{"IsBus":false,"Filter":"0","Catalog":"","IsGaoTie":false,"IsDongChe":false,"CatalogName":"","DepartureCity":"wanyuan","ArrivalCity":"xiaohezhen","HubCity":"","DepartureCityName":"万源","ArrivalCityName":"小河镇","DepartureDate":"2017-03-29","DepartureDateReturn":"2017-03-31","ArrivalDate":"","TrainNumber":""}'}

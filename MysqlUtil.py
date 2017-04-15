@@ -16,7 +16,7 @@ class sqlSessionFactory(object):
 
     def __initPool__(self):
         global pool
-        pool = PooledDB(MySQLdb,self.num,host=self.host,user=self.user,passwd=self.passwd,db=self.db,port=3306)
+        pool = PooledDB(MySQLdb,self.num,host=self.host,user=self.user,passwd=self.passwd,db=self.db,port=3306,charset="utf8")
         # pool = PooledDB(MySQLdb,5,host='192.100.2.31',user='data',passwd='opensesame',db='traincrawler',port=3306)
 
     @classmethod
