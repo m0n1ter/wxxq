@@ -1,0 +1,1419 @@
+
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+<meta charset='gb2312'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<title>实时更新最新可用代理IP地址查询平台 - 站大爷</title>
+<script src="/js/ice.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/base.js?2017-4-27 19:23:03"></script>
+<script src="/js/m.js"></script>
+<link href="/css/ice.css" media="all" rel="stylesheet" />
+<link href="/css/zzsc.css" rel="stylesheet" type="text/css">
+<link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<meta name="keywords" content="代理IP，可用代理IP，最新代理IP，今日可用代理IP，站大爷，免费代理IP，代理API，私密代理IP，五位随机代理IP，HTTP代理IP，Socks5代理IP">
+<meta name="description" content="本站是互联网唯一一家时时刻刻在实时更新的代理IP地址查询平台，在这里看到的代理IP地址全部都是在30分钟内被验证可用的代理IP，很强大的代理IP平台，随时都有成千上万的免费代理IP地址等您拿。">
+<meta content='width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0' name='viewport'>
+<meta content='yes' name='apple-mobile-web-app-capable'>
+<meta content='black' name='apple-mobile-web-app-status-bar-style'>
+<meta content='telephone=no' name='format-detection'>
+
+</head>
+<body>
+
+<!--[if lt IE 9]>
+  <div class="alert alert-danger">本站对IE9以下版本的支持并不友好，还请您使用更先进的浏览器，例如：谷歌浏览器、火狐浏览器等等；或者开启您的极速模式。感谢来访！</div>
+<![endif]-->
+
+
+<div class='container mt40' style="margin-top:18px;">
+
+
+<div style="text-align:right;margin-bottom:15px;">
+
+<a href="/reg.html" style="text-decoration:none;" target=_top><span class="label label-warning"><i class="glyphicon glyphicon-pencil"></i> 注册会员</span></a>&nbsp;&nbsp;<a href="/login.html" style="text-decoration:none;" target=_top><span class="label label-success"><i class="glyphicon glyphicon-user"></i> 登录</span></a>
+
+	</div>
+	
+	<div class='row mb20 clearfix'>
+		<div class='col-md-3' style="width:18%"><a href="/"><img src='/img/logo.png'></a></div>
+		<div class='col-md-9 column' style="width:82%">
+			<nav class='navbar navbar-default' role='navigation'>
+				<div class='navbar-header'>
+					<button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+						<span class='sr-only'>Toggle navigation</span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+				</div>
+				<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+					<ul class='nav navbar-nav'>
+						<li class='active'><a href="/" title="代理IP在线查询" target=_top><i class='glyphicon glyphicon-home'></i>
+代理IP查询</a></li>
+						<li class=''><a href='/buy.html' target=_top>
+<i class='glyphicon glyphicon-file'></i>
+购买普通代理
+</a>
+</li>
+
+
+<li class=' '>
+<a href='/SimiProxy.html' target=_top>
+<i class='glyphicon glyphicon-tree-deciduous hot'></i>
+一手私密代理
+</a>
+</li>
+
+
+
+<li class=' '>
+<a href='/ShortProxy.html' target=_top>
+<i class='glyphicon glyphicon-book hot'></i>
+短效优质代理
+</a>
+</li>
+
+
+
+
+<li class=''>
+<a href='/saomiao.html' target=_top>
+<i class='glyphicon glyphicon-cloud'></i>
+代理扫描仪
+</a>
+</li>
+
+
+<li class=' '>
+<a href='/S5Proxy.html' target=_top>
+<i class='glyphicon  glyphicon-heart'></i>
+一手Socks5代理
+</a>
+</li>
+
+<li class=''>
+<a href='/ActiveVPN.html' target=_top>
+<i class='glyphicon glyphicon-picture'></i>
+动态VPN
+</a>
+</li>
+
+
+  
+
+</div>
+</nav>
+</div>
+</div>
+<style>
+.logina{
+	color:#006699;
+}
+
+</style>
+
+
+<style>
+label{
+	font-weight:100;
+}
+.iyes{
+	margin-top:6px;
+	margin-left:6px;
+}
+</style>
+
+<div class='panel  panel-default' style='padding:10px;margin-bottom:10px;'>
+这是一个朴素平凡默默为您付出的公益网站，所有代理IP每30分钟会被系统自动重新验证一次，绝无水分，业内最透明，最值得信赖；尽管如此，因为我们验证服务器的网络环境跟您的网络环境不是100%相同，所以我们不能保证这里的免费代理IP在您那边100%能用，一般可用率在1-40%，如果想要高质量代理IP请购买<a href='/SimiProxy.html'>一手私密代理</a>或<a href='/ShortProxy.html'>短效优质代理</a>。
+<div class='alert fade in alert-warning' style="font-size:14px;padding:5px;margin-top:5px;margin-bottom:0px;"><i class='glyphicon glyphicon-heart'></i>&nbsp;&nbsp;<font color="orange">QQ交流群417568497欢迎大家加入。</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="green">欢迎下载站大爷代理IP工具 (多线程批量验证，自动智能更换代理，自动刷网页)：<a href="/zdayeProxyer.html" target=_blank">本站最新版下载</a></font></div><font color="red">本站已经在全球各地部署了多节点验证服务器，一如既往地为大家提供贴心优质的免费服务。特别感谢以下IDC赞助商提供各线路服务器及带宽资源(排名不分先后)：&nbsp;<a href="http://www.37www.com/" target="_blank" rel="nofollow">三晶数据</a>&nbsp;&nbsp;&nbsp;<a href="http://www.iwtx.net/" target="_blank" rel="nofollow">亿网天下</a>&nbsp;&nbsp;&nbsp;<a href="http://www.sh501.com/" target="_blank" rel="nofollow">文诚网络</a>&nbsp;&nbsp;&nbsp;<a href="http://www.runidc.com/" target="_blank" rel="nofollow">香港VPS</a></font>
+</div>
+<div class='panel  panel-default' style='padding:10px;font-size:12px;margin-bottom:10px;'>
+	快捷查询方式→&nbsp;&nbsp;
+  <a href="/adr_%B4%F3%D1%A7.html">大学</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C3%C0%B9%FA.html">美国</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C8%D5%B1%BE.html">日本</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%AB%B9%FA.html">韩国</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B0%C4%C3%C5.html">澳门</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%CF%E3%B8%DB.html">香港</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%CC%A8%CD%E5.html">台湾</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%D0%C2%BC%D3%C6%C2.html">新加坡</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%D3%A1%B6%C8.html">印度</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%AB%B9%FA.html">韩国</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B1%B1%BE%A9.html">北京</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%CC%EC%BD%F2.html">天津</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C9%CF%BA%A3.html">上海</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%D6%D8%C7%EC.html">重庆</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%D3%B1%B1.html">河北</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C9%BD%CE%F7.html">山西</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C1%C9%C4%FE.html">辽宁</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BC%AA%C1%D6.html">吉林</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%DA%C1%FA%BD%AD.html">黑龙江</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BD%AD%CB%D5.html">江苏</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%D5%E3%BD%AD.html">浙江</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B0%B2%BB%D5.html">安徽</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B8%A3%BD%A8.html">福建</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BD%AD%CE%F7.html">江西</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C9%BD%B6%AB.html">山东</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%D3%C4%CF.html">河南</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%FE%B1%B1.html">湖北</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%FE%C4%CF.html">湖南</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B9%E3%B6%AB.html">广东</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B8%CA%CB%E0.html">甘肃</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%CB%C4%B4%A8.html">四川</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B9%F3%D6%DD.html">贵州</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%BA%A3%C4%CF.html">海南</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%D4%C6%C4%CF.html">云南</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C7%E0%BA%A3.html">青海</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C9%C2%CE%F7.html">陕西</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%B9%E3%CE%F7.html">广西</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%CE%F7%B2%D8.html">西藏</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C4%FE%CF%C4.html">宁夏</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%D0%C2%BD%AE.html">新疆</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/adr_%C4%DA%C3%C9.html">内蒙</a>
+</div>
+
+<div class='panel  panel-default' style='padding:10px;font-size:13px;margin-bottom:10px;'>
+<form id="fm" action="/" method="get">
+组合搜索方式→&nbsp;&nbsp;IP段：<input name="ip" type="text" style="width:100px;" value="">
+&nbsp;&nbsp;<a class=ma data-tooggle="tooltip" data-original-title="多个用逗号分开">端口：<input name="port" type="text" class="stext" id="port" style="width:125px;" value=""   placeholder="多个用逗号分开"></a>
+&nbsp;&nbsp;<a class=ma data-tooggle="tooltip" data-original-title="多个用逗号分开">地理位置：<input name="adr" type="text" class="stext" id="adr" style="width:200px;" value="" placeholder="多个用逗号分开"></a>&nbsp;&nbsp;
+上次验证时间：
+<select name="checktime" id="checktime">
+  <option value="">不限</option>
+  <option value="1">1分钟内</option>
+  <option value="2">10分钟内</option>
+  <option value="3">30分钟内</option>
+  <option value="4">1小时内</option>
+  <option value="5">1个半小时内</option>
+</select>&nbsp;&nbsp;响应时间(参考延迟)：
+<select name="sleep" id="sleep">
+  <option value="">不限</option>
+  <option value="1">1秒内</option>
+  <option value="2">3秒内</option>
+  <option value="3">5秒内</option>
+  <option value="4">10秒内</option>
+  <option value="5">15秒内</option>
+  </select><div style="height:5px;"></div>已存活时间：
+<select name="cunhuo" id="cunhuo">
+  <option value="">不限</option>
+  <option value="1">10分钟以上</option>
+  <option value="2">半小时以上</option>
+  <option value="3">1小时以上</option>
+  <option value="4">3小时以上</option>
+  <option value="5">10小时以上</option>
+  <option value="6">24小时以上</option>
+  <option value="7">48小时以上</option>
+  <option value="8">1个月以上</option>
+  <option value="9">3个月以上</option>
+</select>
+&nbsp;&nbsp;
+<a class=ma data-tooggle="tooltip" data-original-title="多个用逗号分开">排除端口：
+<input name="nport" type="text" class="stext" id="nport" style="width:130px;" value="" placeholder="多个用逗号分开"></a>&nbsp;&nbsp;
+<a class=ma data-tooggle="tooltip" data-original-title="多个用逗号分开">排除地理位置：
+<input name="nadr" type="text" class="stext" id="nadr" style="width:198px;" value="" placeholder="多个用逗号分开"></a>
+&nbsp;&nbsp;匿名类型：
+<select name="dengji" id="dengji">
+  <option value="">不限</option>
+  <option value="1">高匿</option>
+  <option value="2">普匿</option>
+  <option value="3">匿名</option>
+  <option value="4">透明</option>
+  <option value="5">未知</option>
+</select>
+&nbsp;&nbsp;支持https：
+<select name="https" id="https">
+  <option value="">不限</option>
+  <option value="1">支持</option>
+</select>
+&nbsp;&nbsp;运营商：
+<select name="yys" id="yys">
+  <option value="">不限</option>
+  <option value="1">中国电信</option>
+  <option value="2">中国联通</option>
+  <option value="3">中国移动</option>
+  <option value="4">中国铁通</option>
+</select>
+<div style="height:5px;"></div>
+IP所在地国别选择：
+<label>
+<input type="radio" name="gb" value="" checked="checked">
+不限</label>&nbsp;&nbsp;<label>
+<input type="radio" name="gb" value="2">
+大陆</label>&nbsp;&nbsp;<label>
+<input type="radio" name="gb" value="3">
+海外</label>&nbsp;&nbsp;<label>
+<input type="radio" name="gb" value="4">
+中国</label>&nbsp;&nbsp;<label>
+<input type="radio" name="gb" value="5">
+外国</label>
+&nbsp;&nbsp;<label>
+<input type="radio" name="gb" value="6">
+港澳台</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持post：
+<select name="post" id="post">
+  <option value="">不限</option>
+  <option value="支持">支持</option>
+</select>&nbsp;&nbsp;
+排序方式：
+<select name="px" id="px">
+  <option value="">按验证时间从近到远</option>
+  <option value="1">按验证时间从远到近</option>
+  <option value="2">按响应时间从大到小</option>
+  <option value="3">按响应时间从小到大</option>
+  <option value="4">按存活时间从大到小</option>
+  <option value="5">按存活时间从小到大</option>
+</select>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onClick="submit()" value="搜索">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onClick="location.href='/';" value="清空所有条件"> 
+<br><div class="panel2"><img src='img/img.gif'></div>
+</form>
+
+
+<div class='alert fade in alert-info' style="font-size:13px;padding:5px;margin-top:5px;margin-bottom:0px;"><i class='glyphicon glyphicon-heart'></i> 温馨小提示：已存活时间越长的IP代表越稳定。&nbsp;&nbsp;&nbsp;&nbsp;<a style='color:red' href='/saomiao.html'>请点这里，运行代理IP扫描仪可以让您每小时获得数以万计100%可用的代理IP。</a><br>本代理IP平台每天流水25万左右高质量有效代理IP，时时刻刻分分秒秒都在不停地在更新，绝无水分，行内信誉最高，本页可看到验证过程，看得见的放心，看得见的信誉！</div></div>
+<div class='panel  panel-default' style='padding:10px;'>
+
+
+<div class='alert fade in alert-danger' style="font-size:14px;padding:5px;margin-top:0px;margin-bottom:10px;"><i class='glyphicon glyphicon-heart'></i>&nbsp;为了杜绝大量恶意采集现象，免费用户所看到的端口号改为图片显示，而拥有无限制查询权限的用户依然是文本显示。<a style="margin-left:15px"  href="/buySearch.html" target="_blank" class="btn btn-success">购买无限制查询权限</a><a style="margin-left:15px"  href="/buy.html" target="_blank" class="btn btn-primary">购买API提取接口</a></div>
+<div class="page">
+当前搜索条件下30分钟内验证可用的代理IP共<font color='orange'><b>5899</b></font>个，每页40个 
+&nbsp;
+1
+<a title="跳到第2页" href="/?pageid=2">2</a>
+
+<a title="跳到第3页" href="/?pageid=3">3</a>
+
+<a title="跳到第4页" href="/?pageid=4">4</a>
+
+<a title="跳到第5页" href="/?pageid=5">5</a>
+
+<a title="跳到第6页" href="/?pageid=6">6</a>
+
+<a title="跳到第7页" href="/?pageid=7">7</a>
+
+<a title="跳到第8页" href="/?pageid=8">8</a>
+
+<a title="跳到第9页" href="/?pageid=9">9</a>
+
+... <a title="最后页" href="/?pageid=148">148</a>
+
+&nbsp;<a title="下一页" href="/?pageid=2">下一页</a>
+
+&nbsp;&nbsp;<a title="刷新本页" href="javascript:window.location.reload();void(0);">刷新</a></div>
+
+
+<table id="ipc" cellpadding="0" cellspacing="0" border="0"  class='table table-hover panel-default panel ctable'>
+<tbody><tr   class='active'>
+<td width="109">IP地址</td>
+		<td width="35">端口</td>
+		<td width="33">类型</td>
+		<td width="80">地理位置</td>
+		<td>上次验证</td>
+<td>https</td>
+<td>post</td>
+<td class="jd cet">本站线路</td>
+<td class="jd2 cet">金华双线</td>
+<td class="jd3 cet">广州电信</td>
+<td class="jd4 cet">郑州多线</td>
+<td class="jd6 cet">四川电信</td>
+<td class="jd7 cet">香港</td>
+<td class="jd8 cet">美国</td>
+<td class="jd9 cet">韩国</td>
+<td class="jd5 cet">百度</td>
+<td class="jd2 cet">淘宝</td>
+
+
+		<td class="jd10">参考延迟</td>
+		<td><a class=ma title="该数值计算方法为（可连接的验证节点数量除以验证节点总数量），该数值越大表示该代理IP能连通的网络线路越多，覆盖面越广，也说明了该代理IP的质量越好。">覆盖率</a></td>		<td class='mtd'>已存活时间</td>
+	</tr>
+
+<tr>
+  <td v="452#452#452">5.2.69.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="荷兰">荷兰</a></td>
+  <td>&nbsp;刚检测</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">2.00</td>
+<td class="jd2_ cet slp">1.36</td>
+<td class="jd3_ cet slp">1.06</td>
+<td class="jd4_ cet slp">0.88</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">0.95</td>
+<td class="jd7_ cet slp">0.97</td>
+<td class="jd9_ cet slp">0.60</td>
+<td class="jd8_ cet slp">0.97</td>
+<td class="jd2_ cet slp">1.34</td>
+
+  <td class="jd10_ cet">2.00 秒</td><td>91%</td>
+  <td class='mtd'>53天14小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">170.78.4.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="北美地区">北美地区</a></td>
+  <td>&nbsp;刚检测</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">1.36</td>
+<td class="jd2_ cet slp">1.38</td>
+<td class="jd3_ cet slp">0.90</td>
+<td class="jd4_ cet slp">0.27</td>
+<td class="jd5_ cet slp">0.85</td>
+<td class="jd6_ cet slp">0.37</td>
+<td class="jd7_ cet slp">0.52</td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">1.18</td>
+<td class="jd2_ cet slp">0.28</td>
+
+  <td class="jd10_ cet">1.36 秒</td><td>91%</td>
+  <td class='mtd'>新入库</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">121.61.100.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>普匿</td>
+  <td class="tableAdr"><a class=ma title="湖北省咸宁市 电信">湖北省咸宁市 电信</a></td>
+  <td>&nbsp;刚检测</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.26</td>
+<td class="jd2_ cet slp">0.20</td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp">0.79</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp"><span color=gray>---</span></td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp">0.95</td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp">1.42</td>
+
+  <td class="jd10_ cet">0.26 秒</td><td>55%</td>
+  <td class='mtd'>新入库</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">114.99.23.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>普匿</td>
+  <td class="tableAdr"><a class=ma title="安徽省安庆市 电信">安徽省安庆市 电信</a></td>
+  <td>&nbsp;1秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">6.23</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp">1.00</td>
+<td class="jd4_ cet slp">0.49</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">1.30</td>
+<td class="jd7_ cet slp">1.48</td>
+<td class="jd9_ cet slp">1.01</td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp">0.16</td>
+
+  <td class="jd10_ cet">6.23 秒</td><td>64%</td>
+  <td class='mtd'>新入库</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">65.94.94.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="加拿大">加拿大</a></td>
+  <td>&nbsp;3秒前</td>
+<td><div class="iyes"></div></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.36</td>
+<td class="jd2_ cet slp">0.87</td>
+<td class="jd3_ cet slp">0.29</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">1.06</td>
+<td class="jd7_ cet slp">0.56</td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">0.77</td>
+<td class="jd2_ cet slp">0.98</td>
+
+  <td class="jd10_ cet">0.36 秒</td><td>73%</td>
+  <td class='mtd'>6天9小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">103.240.100.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="印度">印度</a></td>
+  <td>&nbsp;4秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">9.59</td>
+<td class="jd2_ cet slp">1.09</td>
+<td class="jd3_ cet slp">1.15</td>
+<td class="jd4_ cet slp">0.47</td>
+<td class="jd5_ cet slp">0.40</td>
+<td class="jd6_ cet slp">1.07</td>
+<td class="jd7_ cet slp">1.11</td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">0.38</td>
+<td class="jd2_ cet slp">0.25</td>
+
+  <td class="jd10_ cet">9.59 秒</td><td>91%</td>
+  <td class='mtd'>5小时54分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">96.9.252.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="美国">美国</a></td>
+  <td>&nbsp;4秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">8.84</td>
+<td class="jd2_ cet slp">1.25</td>
+<td class="jd3_ cet slp">0.91</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">1.13</td>
+<td class="jd7_ cet slp">0.34</td>
+<td class="jd9_ cet slp">1.07</td>
+<td class="jd8_ cet slp">1.46</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+
+  <td class="jd10_ cet">8.84 秒</td><td>73%</td>
+  <td class='mtd'>9天7小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">180.234.207.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="孟加拉">孟加拉</a></td>
+  <td>&nbsp;5秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">3.61</td>
+<td class="jd2_ cet slp">0.22</td>
+<td class="jd3_ cet slp">0.81</td>
+<td class="jd4_ cet slp">0.19</td>
+<td class="jd5_ cet slp">1.38</td>
+<td class="jd6_ cet slp">0.26</td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp">0.96</td>
+<td class="jd8_ cet slp">0.32</td>
+<td class="jd2_ cet slp">1.47</td>
+
+  <td class="jd10_ cet">3.61 秒</td><td>91%</td>
+  <td class='mtd'>4小时38分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">218.64.93.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>普匿</td>
+  <td class="tableAdr"><a class=ma title="江西省吉安市 电信">江西省吉安市 电信</a></td>
+  <td>&nbsp;5秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">4.62</td>
+<td class="jd2_ cet slp">1.34</td>
+<td class="jd3_ cet slp">0.83</td>
+<td class="jd4_ cet slp">0.62</td>
+<td class="jd5_ cet slp">0.76</td>
+<td class="jd6_ cet slp">0.17</td>
+<td class="jd7_ cet slp">0.87</td>
+<td class="jd9_ cet slp">0.89</td>
+<td class="jd8_ cet slp">0.52</td>
+<td class="jd2_ cet slp">1.25</td>
+
+  <td class="jd10_ cet">4.62 秒</td><td>100%</td>
+  <td class='mtd'>新入库</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">110.73.179.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="广西柳州市 联通">广西柳州市 联通</a></td>
+  <td>&nbsp;5秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">3.19</td>
+<td class="jd2_ cet slp">0.61</td>
+<td class="jd3_ cet slp">0.22</td>
+<td class="jd4_ cet slp">0.25</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">0.13</td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp">0.60</td>
+
+  <td class="jd10_ cet">3.19 秒</td><td>55%</td>
+  <td class='mtd'>39分54秒</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">163.125.255.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="广东省深圳市 联通">广东省深圳市 联通</a></td>
+  <td>&nbsp;6秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">0.48</td>
+<td class="jd2_ cet slp">1.29</td>
+<td class="jd3_ cet slp">1.26</td>
+<td class="jd4_ cet slp">0.31</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp"><span color=gray>---</span></td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp">0.45</td>
+<td class="jd8_ cet slp">0.64</td>
+<td class="jd2_ cet slp">1.05</td>
+
+  <td class="jd10_ cet">0.48 秒</td><td>73%</td>
+  <td class='mtd'>17小时33分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">24.27.78.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="美国 弗吉尼亚州费尔法克斯县赫恩登镇时代华纳有线互联网有限公司">美国 弗吉尼亚州费尔法克斯县赫恩登镇时代华纳有线互联网有限公司</a></td>
+  <td>&nbsp;6秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">17.42</td>
+<td class="jd2_ cet slp">0.37</td>
+<td class="jd3_ cet slp">0.43</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp">0.49</td>
+<td class="jd6_ cet slp">0.48</td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp">1.33</td>
+<td class="jd8_ cet slp">0.41</td>
+<td class="jd2_ cet slp">0.11</td>
+
+  <td class="jd10_ cet">17.42 秒</td><td>82%</td>
+  <td class='mtd'>2天22小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">192.129.212.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="美国 俄克拉何马州欧塞奇、罗杰斯、塔尔萨与瓦戈纳县塔尔萨市HostWinds有限公司">美国 俄克拉何马州欧塞奇、罗杰斯、塔尔萨与瓦戈纳县塔尔萨市HostWinds有限公司</a></td>
+  <td>&nbsp;7秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">11.41</td>
+<td class="jd2_ cet slp">1.38</td>
+<td class="jd3_ cet slp">1.31</td>
+<td class="jd4_ cet slp">0.62</td>
+<td class="jd5_ cet slp">0.53</td>
+<td class="jd6_ cet slp">1.40</td>
+<td class="jd7_ cet slp">1.20</td>
+<td class="jd9_ cet slp">0.18</td>
+<td class="jd8_ cet slp">1.17</td>
+<td class="jd2_ cet slp">0.94</td>
+
+  <td class="jd10_ cet">11.41 秒</td><td>100%</td>
+  <td class='mtd'>4小时1分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">113.200.235.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>未知</td>
+  <td class="tableAdr"><a class=ma title="陕西省西安市 联通">陕西省西安市 联通</a></td>
+  <td>&nbsp;7秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.14</td>
+<td class="jd2_ cet slp">1.31</td>
+<td class="jd3_ cet slp">0.19</td>
+<td class="jd4_ cet slp">1.02</td>
+<td class="jd5_ cet slp">1.01</td>
+<td class="jd6_ cet slp">1.05</td>
+<td class="jd7_ cet slp">0.99</td>
+<td class="jd9_ cet slp">1.45</td>
+<td class="jd8_ cet slp">1.06</td>
+<td class="jd2_ cet slp">0.10</td>
+
+  <td class="jd10_ cet">0.14 秒</td><td>100%</td>
+  <td class='mtd'>43天23小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">162.243.37.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title=""></a></td>
+  <td>&nbsp;8秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">1.94</td>
+<td class="jd2_ cet slp">0.15</td>
+<td class="jd3_ cet slp">0.16</td>
+<td class="jd4_ cet slp">1.32</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">1.08</td>
+<td class="jd7_ cet slp">0.89</td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">0.89</td>
+<td class="jd2_ cet slp">1.41</td>
+
+  <td class="jd10_ cet">1.94 秒</td><td>82%</td>
+  <td class='mtd'>4天1小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">121.22.252.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>未知</td>
+  <td class="tableAdr"><a class=ma title="河北省秦皇岛市 联通">河北省秦皇岛市 联通</a></td>
+  <td>&nbsp;8秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.13</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp">1.43</td>
+<td class="jd4_ cet slp">1.20</td>
+<td class="jd5_ cet slp">1.50</td>
+<td class="jd6_ cet slp">0.85</td>
+<td class="jd7_ cet slp">1.08</td>
+<td class="jd9_ cet slp">1.18</td>
+<td class="jd8_ cet slp">0.99</td>
+<td class="jd2_ cet slp">0.63</td>
+
+  <td class="jd10_ cet">0.13 秒</td><td>91%</td>
+  <td class='mtd'>44天</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">66.82.69.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="美国 马里兰州Germantown市休斯网络公司">美国 马里兰州Germantown市休斯网络公司</a></td>
+  <td>&nbsp;8秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">2.80</td>
+<td class="jd2_ cet slp">0.45</td>
+<td class="jd3_ cet slp">0.98</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">0.30</td>
+<td class="jd7_ cet slp">0.98</td>
+<td class="jd9_ cet slp">1.20</td>
+<td class="jd8_ cet slp">0.18</td>
+<td class="jd2_ cet slp">1.04</td>
+
+  <td class="jd10_ cet">2.80 秒</td><td>73%</td>
+  <td class='mtd'>13小时57分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">211.129.237.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>未知</td>
+  <td class="tableAdr"><a class=ma title="日本 NTT通信公司">日本 NTT通信公司</a></td>
+  <td>&nbsp;8秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.73</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp">1.25</td>
+<td class="jd4_ cet slp">0.67</td>
+<td class="jd5_ cet slp">1.15</td>
+<td class="jd6_ cet slp">0.56</td>
+<td class="jd7_ cet slp">0.17</td>
+<td class="jd9_ cet slp">0.56</td>
+<td class="jd8_ cet slp">0.20</td>
+<td class="jd2_ cet slp">0.63</td>
+
+  <td class="jd10_ cet">0.73 秒</td><td>82%</td>
+  <td class='mtd'>248天9小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">5.2.69.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="荷兰">荷兰</a></td>
+  <td>&nbsp;9秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">4.62</td>
+<td class="jd2_ cet slp">0.54</td>
+<td class="jd3_ cet slp">0.25</td>
+<td class="jd4_ cet slp">0.64</td>
+<td class="jd5_ cet slp">1.43</td>
+<td class="jd6_ cet slp">1.07</td>
+<td class="jd7_ cet slp">0.71</td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">0.62</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+
+  <td class="jd10_ cet">4.62 秒</td><td>73%</td>
+  <td class='mtd'>6小时33分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">189.72.187.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="巴西">巴西</a></td>
+  <td>&nbsp;9秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">2.73</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">0.92</td>
+<td class="jd7_ cet slp">1.13</td>
+<td class="jd9_ cet slp">0.24</td>
+<td class="jd8_ cet slp">1.39</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+
+  <td class="jd10_ cet">2.73 秒</td><td>55%</td>
+  <td class='mtd'>39分14秒</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">42.59.212.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="辽宁省 联通">辽宁省 联通</a></td>
+  <td>&nbsp;9秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">4.55</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp">1.37</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">0.18</td>
+<td class="jd7_ cet slp">1.31</td>
+<td class="jd9_ cet slp">0.35</td>
+<td class="jd8_ cet slp">1.15</td>
+<td class="jd2_ cet slp">0.39</td>
+
+  <td class="jd10_ cet">4.55 秒</td><td>73%</td>
+  <td class='mtd'>6小时32分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">139.255.47.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="印度尼西亚">印度尼西亚</a></td>
+  <td>&nbsp;10秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">0.69</td>
+<td class="jd2_ cet slp">0.84</td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp">0.93</td>
+<td class="jd5_ cet slp">0.82</td>
+<td class="jd6_ cet slp">0.45</td>
+<td class="jd7_ cet slp">1.49</td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">1.49</td>
+<td class="jd2_ cet slp">0.86</td>
+
+  <td class="jd10_ cet">0.69 秒</td><td>73%</td>
+  <td class='mtd'>1天6小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">211.120.127.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>未知</td>
+  <td class="tableAdr"><a class=ma title="日本">日本</a></td>
+  <td>&nbsp;10秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.38</td>
+<td class="jd2_ cet slp">0.60</td>
+<td class="jd3_ cet slp">1.17</td>
+<td class="jd4_ cet slp">0.76</td>
+<td class="jd5_ cet slp">1.15</td>
+<td class="jd6_ cet slp">1.00</td>
+<td class="jd7_ cet slp">0.20</td>
+<td class="jd9_ cet slp">1.04</td>
+<td class="jd8_ cet slp">0.59</td>
+<td class="jd2_ cet slp">0.87</td>
+
+  <td class="jd10_ cet">0.38 秒</td><td>91%</td>
+  <td class='mtd'>248天9小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">222.85.50.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>普匿</td>
+  <td class="tableAdr"><a class=ma title="河南省平顶山市 电信">河南省平顶山市 电信</a></td>
+  <td>&nbsp;11秒前</td>
+<td><div class="iyes"></div></td>
+<td></td>
+<td class="jd_ cet slp">9.16</td>
+<td class="jd2_ cet slp">1.48</td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">1.19</td>
+<td class="jd7_ cet slp">1.23</td>
+<td class="jd9_ cet slp">1.41</td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp">0.65</td>
+
+  <td class="jd10_ cet">9.16 秒</td><td>64%</td>
+  <td class='mtd'>3小时16分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">113.65.5.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="广东省广州市 电信">广东省广州市 电信</a></td>
+  <td>&nbsp;12秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">0.06</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp">0.86</td>
+<td class="jd5_ cet slp">1.05</td>
+<td class="jd6_ cet slp">1.31</td>
+<td class="jd7_ cet slp">0.91</td>
+<td class="jd9_ cet slp">1.06</td>
+<td class="jd8_ cet slp">0.94</td>
+<td class="jd2_ cet slp">1.32</td>
+
+  <td class="jd10_ cet">0.06 秒</td><td>82%</td>
+  <td class='mtd'>5小时12分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">185.136.151.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="欧洲和中东地区">欧洲和中东地区</a></td>
+  <td>&nbsp;12秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">9.91</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp">0.17</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp">0.57</td>
+<td class="jd6_ cet slp"><span color=gray>---</span></td>
+<td class="jd7_ cet slp">0.87</td>
+<td class="jd9_ cet slp">1.04</td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp">1.17</td>
+
+  <td class="jd10_ cet">9.91 秒</td><td>55%</td>
+  <td class='mtd'>1天12小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">210.105.95.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>未知</td>
+  <td class="tableAdr"><a class=ma title="韩国">韩国</a></td>
+  <td>&nbsp;12秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.19</td>
+<td class="jd2_ cet slp">0.24</td>
+<td class="jd3_ cet slp">0.60</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp">1.48</td>
+<td class="jd6_ cet slp">0.14</td>
+<td class="jd7_ cet slp">1.29</td>
+<td class="jd9_ cet slp">0.74</td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp">0.28</td>
+
+  <td class="jd10_ cet">0.19 秒</td><td>82%</td>
+  <td class='mtd'>248天9小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">211.140.139.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>普匿</td>
+  <td class="tableAdr"><a class=ma title="浙江省金华市 移动">浙江省金华市 移动</a></td>
+  <td>&nbsp;12秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.31</td>
+<td class="jd2_ cet slp">0.23</td>
+<td class="jd3_ cet slp">1.11</td>
+<td class="jd4_ cet slp">0.73</td>
+<td class="jd5_ cet slp">0.34</td>
+<td class="jd6_ cet slp">1.25</td>
+<td class="jd7_ cet slp">0.32</td>
+<td class="jd9_ cet slp">0.81</td>
+<td class="jd8_ cet slp">1.25</td>
+<td class="jd2_ cet slp">0.85</td>
+
+  <td class="jd10_ cet">0.31 秒</td><td>100%</td>
+  <td class='mtd'>2天2小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">163.172.100.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="英国">英国</a></td>
+  <td>&nbsp;13秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">15.91</td>
+<td class="jd2_ cet slp">0.48</td>
+<td class="jd3_ cet slp">0.61</td>
+<td class="jd4_ cet slp">0.57</td>
+<td class="jd5_ cet slp">0.85</td>
+<td class="jd6_ cet slp"><span color=gray>---</span></td>
+<td class="jd7_ cet slp">1.26</td>
+<td class="jd9_ cet slp">0.65</td>
+<td class="jd8_ cet slp">0.56</td>
+<td class="jd2_ cet slp">0.72</td>
+
+  <td class="jd10_ cet">15.91 秒</td><td>91%</td>
+  <td class='mtd'>新入库</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">210.136.18.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>未知</td>
+  <td class="tableAdr"><a class=ma title="日本 NTT通信公司">日本 NTT通信公司</a></td>
+  <td>&nbsp;13秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.59</td>
+<td class="jd2_ cet slp">0.74</td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp">0.55</td>
+<td class="jd6_ cet slp">0.18</td>
+<td class="jd7_ cet slp">1.04</td>
+<td class="jd9_ cet slp">0.59</td>
+<td class="jd8_ cet slp">0.74</td>
+<td class="jd2_ cet slp">0.18</td>
+
+  <td class="jd10_ cet">0.59 秒</td><td>82%</td>
+  <td class='mtd'>248天9小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">192.99.190.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="加拿大 魁北克省蒙特利尔市OVH数据中心">加拿大 魁北克省蒙特利尔市OVH数据中心</a></td>
+  <td>&nbsp;13秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">1.73</td>
+<td class="jd2_ cet slp">0.11</td>
+<td class="jd3_ cet slp">1.13</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp">1.22</td>
+<td class="jd6_ cet slp">1.49</td>
+<td class="jd7_ cet slp">1.19</td>
+<td class="jd9_ cet slp">0.54</td>
+<td class="jd8_ cet slp">1.17</td>
+<td class="jd2_ cet slp">0.15</td>
+
+  <td class="jd10_ cet">1.73 秒</td><td>91%</td>
+  <td class='mtd'>1天8小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">183.230.115.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>普匿</td>
+  <td class="tableAdr"><a class=ma title="重庆市 移动">重庆市 移动</a></td>
+  <td>&nbsp;14秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.28</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+<td class="jd3_ cet slp">0.18</td>
+<td class="jd4_ cet slp">0.31</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">0.45</td>
+<td class="jd7_ cet slp">0.64</td>
+<td class="jd9_ cet slp">1.21</td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp">0.73</td>
+
+  <td class="jd10_ cet">0.28 秒</td><td>64%</td>
+  <td class='mtd'>3天11小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">88.151.182.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>高匿</td>
+  <td class="tableAdr"><a class=ma title="哈萨克斯坦">哈萨克斯坦</a></td>
+  <td>&nbsp;14秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">1.87</td>
+<td class="jd2_ cet slp">0.33</td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp">0.94</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp"><span color=gray>---</span></td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp">1.26</td>
+<td class="jd8_ cet slp">0.24</td>
+<td class="jd2_ cet slp">1.26</td>
+
+  <td class="jd10_ cet">1.87 秒</td><td>64%</td>
+  <td class='mtd'>6天8小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">200.243.232.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="巴西 圣保罗">巴西 圣保罗</a></td>
+  <td>&nbsp;15秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">10.03</td>
+<td class="jd2_ cet slp">0.20</td>
+<td class="jd3_ cet slp">0.29</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp">0.46</td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">1.49</td>
+<td class="jd2_ cet slp">0.88</td>
+
+  <td class="jd10_ cet">10.03 秒</td><td>64%</td>
+  <td class='mtd'>21小时59分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">216.198.170.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="美国">美国</a></td>
+  <td>&nbsp;16秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">0.61</td>
+<td class="jd2_ cet slp">0.50</td>
+<td class="jd3_ cet slp">1.17</td>
+<td class="jd4_ cet slp">0.20</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp"><span color=gray>---</span></td>
+<td class="jd7_ cet slp">0.49</td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">0.54</td>
+<td class="jd2_ cet slp">1.08</td>
+
+  <td class="jd10_ cet">0.61 秒</td><td>73%</td>
+  <td class='mtd'>8小时29分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">213.74.252.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="土耳其">土耳其</a></td>
+  <td>&nbsp;17秒前</td>
+<td></td>
+<td></td>
+<td class="jd_ cet slp">2.02</td>
+<td class="jd2_ cet slp">0.67</td>
+<td class="jd3_ cet slp"><span color=gray>---</span></td>
+<td class="jd4_ cet slp">1.11</td>
+<td class="jd5_ cet slp"><span color=gray>---</span></td>
+<td class="jd6_ cet slp"><span color=gray>---</span></td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp">0.48</td>
+<td class="jd8_ cet slp">0.83</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+
+  <td class="jd10_ cet">2.02 秒</td><td>55%</td>
+  <td class='mtd'>3小时18分</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">218.56.132.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="山东省临沂市 联通">山东省临沂市 联通</a></td>
+  <td>&nbsp;17秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">9.19</td>
+<td class="jd2_ cet slp">0.23</td>
+<td class="jd3_ cet slp">0.81</td>
+<td class="jd4_ cet slp">0.91</td>
+<td class="jd5_ cet slp">0.57</td>
+<td class="jd6_ cet slp">0.20</td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp"><span color=gray>---</span></td>
+<td class="jd8_ cet slp">1.11</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+
+  <td class="jd10_ cet">9.19 秒</td><td>64%</td>
+  <td class='mtd'>14天1小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">104.236.174.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>普匿</td>
+  <td class="tableAdr"><a class=ma title="美国 纽约州纽约市Digital Ocean股份有限公司">美国 纽约州纽约市Digital Ocean股份有限公司</a></td>
+  <td>&nbsp;18秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">1.01</td>
+<td class="jd2_ cet slp">0.65</td>
+<td class="jd3_ cet slp">1.35</td>
+<td class="jd4_ cet slp">1.29</td>
+<td class="jd5_ cet slp">1.03</td>
+<td class="jd6_ cet slp">0.56</td>
+<td class="jd7_ cet slp"><span color=gray>---</span></td>
+<td class="jd9_ cet slp">0.57</td>
+<td class="jd8_ cet slp">0.30</td>
+<td class="jd2_ cet slp">0.80</td>
+
+  <td class="jd10_ cet">1.01 秒</td><td>82%</td>
+  <td class='mtd'>6天14小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">210.14.76.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>未知</td>
+  <td class="tableAdr"><a class=ma title="上海市 广电网">上海市 广电网</a></td>
+  <td>&nbsp;18秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">0.34</td>
+<td class="jd2_ cet slp">0.14</td>
+<td class="jd3_ cet slp">0.81</td>
+<td class="jd4_ cet slp">0.19</td>
+<td class="jd5_ cet slp">0.24</td>
+<td class="jd6_ cet slp">0.36</td>
+<td class="jd7_ cet slp">1.10</td>
+<td class="jd9_ cet slp">0.83</td>
+<td class="jd8_ cet slp"><span color=gray>---</span></td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+
+  <td class="jd10_ cet">0.34 秒</td><td>82%</td>
+  <td class='mtd'>248天9小时</td>
+</tr>
+
+<tr>
+  <td v="452#452#452">122.3.169.wait</td>
+<td v="451#451#451#451" v2="1" style='display:none'>wait</td>
+<td width="35"><img width=40 height=20 src="/img/m_0000.gif?2017-4-27 19:23:03"></td>
+
+  <td>透明</td>
+  <td class="tableAdr"><a class=ma title="菲律宾">菲律宾</a></td>
+  <td>&nbsp;18秒前</td>
+<td></td>
+<td><div class="iyes"></div></td>
+<td class="jd_ cet slp">3.41</td>
+<td class="jd2_ cet slp">0.78</td>
+<td class="jd3_ cet slp">0.12</td>
+<td class="jd4_ cet slp"><span color=gray>---</span></td>
+<td class="jd5_ cet slp">0.75</td>
+<td class="jd6_ cet slp">1.48</td>
+<td class="jd7_ cet slp">1.37</td>
+<td class="jd9_ cet slp">0.31</td>
+<td class="jd8_ cet slp">0.77</td>
+<td class="jd2_ cet slp"><span color=gray>---</span></td>
+
+  <td class="jd10_ cet">3.41 秒</td><td>82%</td>
+  <td class='mtd'>15小时12分</td>
+</tr>
+
+
+
+
+</tbody></table>
+<div style="height:10px;"></div>
+<div id="mand"></div><div class="page">
+当前搜索条件下30分钟内验证可用的代理IP共<font color='orange'><b>5899</b></font>个，每页40个 
+&nbsp;
+1
+<a title="跳到第2页" href="/?pageid=2">2</a>
+
+<a title="跳到第3页" href="/?pageid=3">3</a>
+
+<a title="跳到第4页" href="/?pageid=4">4</a>
+
+<a title="跳到第5页" href="/?pageid=5">5</a>
+
+<a title="跳到第6页" href="/?pageid=6">6</a>
+
+<a title="跳到第7页" href="/?pageid=7">7</a>
+
+<a title="跳到第8页" href="/?pageid=8">8</a>
+
+<a title="跳到第9页" href="/?pageid=9">9</a>
+
+... <a title="最后页" href="/?pageid=148">148</a>
+
+&nbsp;<a title="下一页" href="/?pageid=2">下一页</a>
+
+&nbsp;&nbsp;<a title="刷新本页" href="javascript:window.location.reload();void(0);">刷新</a></div>
+
+</div>
+
+<div class='alert fade in alert-warning' style="font-size:12px;padding:5px;margin-top:5px;margin-bottom:0px;">友情链接 (合作QQ207309712)：&nbsp;&nbsp;<a href="/dayProxy.html" >每日免费代理IP</a>&nbsp;&nbsp;<a href="/daili.html" >代理IP知识问答</a>&nbsp;&nbsp;<a href="http://www.youdaili.net" target=_blank>代理</a>&nbsp;&nbsp;<a href="http://www.haolizi.net/" target=_blank>好例子网</a>&nbsp;&nbsp;<a href="http://www.bigdaili.com/" target=_blank>免费代理IP</a>&nbsp;&nbsp;<a href="http://www.proxyant.com/" target=_blank>网页代理</a>&nbsp;&nbsp;<a href="http://www.sufeinet.com" target=_blank>苏飞论坛</a>
+&nbsp;<a href="http://www.bazhuayu.com/" target=_blank>视频采集器</a>
+&nbsp;&nbsp;<a href="/map/sitemap.xml" target=_blank>网站地图</a></div>
+
+<div class='row'>
+<hr>
+<div class='col-sm-1'></div>
+<div class='col-sm-4'>
+<br>
+<img src='/img/logo.png'>
+</div>
+<div class='col-sm-5' style='margin-left:-60px;'>
+&copy;CopyRight 2012-2016 站大爷实时更新代理IP平台 &nbsp;&nbsp;&nbsp;客服QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=207309712&site=qq&menu=yes" target="_blank">207309712</a>
+&nbsp;&nbsp;投诉建议：<a href="http://wpa.qq.com/msgrd?v=3&uin=2219765152&site=qq&menu=yes" target="_blank">207309712</a>
+<p></p>
+
+<p>
+<span style='color:red'>
+<i class='glyphicon glyphicon-heart'></i>
+</span>
+站大爷代理IP交流群：<a href="http://jq.qq.com/?_wv=1027&k=2BF6CvG" target="_blank">417568497 (2群)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://jq.qq.com/?_wv=1027&k=T4rh0s" target="_blank">299784290 (1群已满)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:red'>
+<i class='glyphicon glyphicon-heart'></i>
+</span>爬虫开发者交流群：<a href="http://jq.qq.com/?_wv=1027&k=2FgWS4B" target="_blank">343030927</a>
+</p> 
+<p style="font-size:13px;">
+警告：本站资源仅限用来计算机技术学习参考及大数据爬虫应用等合法行为，用户所有操作行为均有日志记录存档并保留2个月，用户若擅自利用本站资源从事任何违反本国（地区）法律法规的活动，由此引起的一切后果与本站无关。</p>
+<p></p>
+</div>
+<div class='col-sm-2'>
+<p class='mt10'>
+
+</p>
+</div>
+</div>
+
+</div>
+
+<div style="display:none"><script language="javascript" type="text/javascript" src="http://js.users.51.la/16949115.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?8fd158bb3e69c43ab5dd05882cf0b234";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+</div>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+var kfqq = "207309712";
+</script>
+
+<div id="top"></div>
+<script type="text/javascript" src="/js/zzsc.js"></script>
+<script>
+  $('.select_tab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+  })
+  $(document).ready(function(){
+    $("a[data-tooggle='tooltip']").tooltip();
+  });
+
+
+ $(".hot").each(function () {
+        var _this = $(this);
+        var hotimg =$("<img src='/img/hot.gif' />");
+        hotimg.css("position","absolute");
+        var offset = _this.offset();
+        hotimg.css("top",offset.top - _this.height() - 0);
+        hotimg.css("left",offset.left + 74);
+        $("body").append(hotimg);  
+    })
+
+ $(".hot2").each(function () {
+        var _this = $(this);
+        var hotimg =$("<img src='/img/hot.gif' />");
+        hotimg.css("position","absolute");
+        var offset = _this.offset();
+        hotimg.css("top",offset.top - _this.height() - 0);
+        hotimg.css("left",offset.left + 76);
+        $("body").append(hotimg);  
+    })
+
+</script>
+<script src="/js/mouse.js"></script>
+</body>
+</html>

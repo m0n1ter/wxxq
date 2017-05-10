@@ -114,7 +114,7 @@ class httpUtil(object):
 
 if __name__ == "__main__":
     util = httpUtil()
-    print util.getByProxyNoSSL2('https://kyfw.12306.cn/otn/leftTicket/queryTicketPrice?train_no=7700000Z9601&from_station_no=09&to_station_no=12&seat_types=1463&train_date=2017-03-29')
+    print util.getByProxyNoSSL2('https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=65000C711205&from_station_telecode=SZQ&to_station_telecode=GGQ&depart_date=2017-04-23')
     # print util.get('http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList&value={"IsBus":false,"Filter":"0","Catalog":"","IsGaoTie":false,"IsDongChe":false,"CatalogName":"","DepartureCity":"yimianpo","ArrivalCity":"chenggaozi","HubCity":"","DepartureCityName":"一面坡","ArrivalCityName":"成高子","DepartureDate":"2017-03-29","DepartureDateReturn":"2017-03-31","ArrivalDate":"","TrainNumber":""}','gb2312')
     # req = 'http://trains.ctrip.com/TrainBooking/Ajax/SearchListHandler.ashx?Action=getSearchList'
     # body ={'value':'{"IsBus":false,"Filter":"0","Catalog":"","IsGaoTie":false,"IsDongChe":false,"CatalogName":"","DepartureCity":"wanyuan","ArrivalCity":"xiaohezhen","HubCity":"","DepartureCityName":"万源","ArrivalCityName":"小河镇","DepartureDate":"2017-03-29","DepartureDateReturn":"2017-03-31","ArrivalDate":"","TrainNumber":""}'}

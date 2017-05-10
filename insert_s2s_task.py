@@ -7,7 +7,7 @@ if sys.getdefaultencoding() != default_encoding:
 from MysqlUtil import sqlSessionFactory
 from pinyin import PinYin
 GET_STATION = "select * from station_station where fetched = 0 limit 10000"
-INSERT_S2S = "INSERT INTO `station_task_tc` (`begin_stop`, `ctrip_begin_stop`, `end_stop`, `ctrip_end_stop`, `status`, `nice`, `selected`, `fetched_date`, `http_code`) VALUES ( '%s', '%s', '%s', '%s', '0', '0', '0', '2017-04-22', NULL);"
+INSERT_S2S = "INSERT INTO `station_task_tc` (`begin_stop`, `ctrip_begin_stop`, `end_stop`, `ctrip_end_stop`, `status`, `nice`, `selected`, `fetched_date`, `http_code`) VALUES ( '%s', '%s', '%s', '%s', '0', '0', '0', '2017-05-01', -1);"
 GET_ALIA_STATION = "select quanpin from station_name_tc where name = '%s'"
 UPDATE_S2S = "update station_station set fetched =1 where id = %s"
 py_util = PinYin()
@@ -51,7 +51,7 @@ def init_trainlist_file():
 
 if __name__ == '__main__':
     # main()
-    # init_trainlist_file()
+    init_trainlist_file()
     print 'finished'
 
 

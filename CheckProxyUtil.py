@@ -1,4 +1,10 @@
 # -*- coding:utf-8 -*-
+import sys
+default_encoding = 'utf-8'
+if sys.getdefaultencoding() != default_encoding:
+    reload(sys)
+    sys.setdefaultencoding(default_encoding)
+
 # 检查代理工具
 
 import threading
@@ -6,9 +12,10 @@ import Queue
 from httpUtil import httpUtil
 from MysqlUtil import sqlSessionFactory
 
-sql_proxy = 'select * from train_proxy where is_use=1 group by ip'
+sql_proxy = 'select * from train_proxy  group by ip'
+ist_proxy = "replace into use_proxy(ip,port)value('%s','%s')"
 lock = threading._Condition(threading.Lock())
-
+file_proxy = open('proxy_list.txt','w')
 class ProxyUtil(object):
     proxyNum = 0
     def __init__(self,checkUrl,threadNum=10):
@@ -65,19 +72,21 @@ class checkProxy(threading.Thread):
                     print '%s:%s代理不可用' % (item[1],item[2])
                 else:
                     print '%s:%s代理可用' % (item[1],item[2])
+                    # sqlSessionFactory.execute(ist_proxy%(item[1],item[2]))
                     self.useful_proxy.append(item)
-                lock.acquire()
-                try:
+                with lock:
                     ProxyUtil.proxyNum -= 1
-                finally:
-                    lock.release()
         print  '%s执行完毕' % threading.current_thread()
 
 
 if __name__ == '__main__':
-    sqlSessionFactory('192.100.2.31','data','opensesame','traincrawler',10)
-    util = ProxyUtil('http://api.sports.sina.com.cn/?p=nba&s=match&a=dateMatches&format=json&callback=NBA_JSONP_CALLBACK&date=2017-03-30&dpc=1',20)
+    sqlSessionFactory('172.16.19.203','data','opensesame','img_upload',30)
+    util = ProxyUtil('http://www.ly.com/huochepiao/Handlers/TrainListSearch.ashx?to=baigou&from=tielingxi&trainDate=2017-04-22&PlatId=1&callback=jQuery183004485401697308511',20)
     util.jobStart(sqlSessionFactory)
+    file = open('proxy_list','a')
+    for item in  util.useful_proxy:
+        file.write('%s%s'% (item[1],item[2]))
+
 
 
 
