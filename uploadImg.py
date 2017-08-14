@@ -24,7 +24,7 @@ img_base_path = "D:/BaiduNetdiskDownload/images/"
 # log = need to insert
 add_log_sql = "INSERT INTO `upload_log`(user_id,shop_id,image_name,image_id,ok,error_msg,http_code,batch,md5,ip_node,source,update_time,create_time) VALUE ( %s, %s, '%s', '%s', %s, '%s', %s, '%s', '%s', '%s', %s, NOW(), NOW())"
 # api - upload img
-base_upload_url = "http://%s:8180/chelsea/image/upload_image.action"
+base_upload_url = "http://%s:8180/chelsea/audit/update_image.action"
 # get random user from tbl_user_info
 random_user_sql = "SELECT user_id FROM `tbl_user_info` WHERE user_id >= (SELECT floor( RAND() * ((SELECT MAX(user_id) FROM `tbl_user_info`)-(SELECT MIN(user_id) FROM `tbl_user_info`)) + (SELECT MIN(user_id) FROM `tbl_user_info`))) ORDER BY user_id LIMIT 1"
 

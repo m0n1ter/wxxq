@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 import sys
+import json
+import mycurl
 default_encoding = 'utf-8'
 if sys.getdefaultencoding() != default_encoding:
     reload(sys)
@@ -12,10 +14,18 @@ import Queue
 from httpUtil import httpUtil
 from MysqlUtil import sqlSessionFactory
 
-sql_proxy = 'select * from train_proxy  group by ip'
-ist_proxy = "replace into use_proxy(ip,port)value('%s','%s')"
+sql_proxy = 'select * from train_proxy_500 where is_use=0'
+# ist_proxy = "replace into use_proxy(ip,port)value('%s','%s')"
 lock = threading._Condition(threading.Lock())
-file_proxy = open('proxy_list.txt','w')
+file_proxy = open('proxy_list.txt','a')
+DOWNLOAD_HEADERS = [
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language:zh-CN,zh;q=0.8,en;q=0.6"
+    "Connection: close",
+    "Host: mapi.dianping.com",
+    "User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36",
+    "Upgrade-Insecure-Requests:1"]
+
 class ProxyUtil(object):
     proxyNum = 0
     def __init__(self,checkUrl,threadNum=10):
@@ -67,13 +77,22 @@ class checkProxy(threading.Thread):
                 except Exception as e:
                     print  e
                     break
-                response = httpUtil.getByProxyParam(self.url,item[1],item[2])
-                if response == '' or response == '500':
-                    print '%s:%s代理不可用' % (item[1],item[2])
-                else:
+                proxy_str = '%s:%s' % (item[1],item[2])
+                can_use =False
+                try:
+                    content = mycurl.get(url=self.url,request_headers=DOWNLOAD_HEADERS,timeout=10,proxy=proxy_str)
+                    if content.status == 200:
+                        info = json.loads(content.body.decode('utf-8'))
+                        if info['recordCount']:
+                            can_use = True
+                except:
+                    pass
+                if can_use:
                     print '%s:%s代理可用' % (item[1],item[2])
-                    # sqlSessionFactory.execute(ist_proxy%(item[1],item[2]))
                     self.useful_proxy.append(item)
+                    sqlSessionFactory.execute('update train_proxy_500 set is_use=500 where id=%s'% item[0])
+                else:
+                    print '%s:%s代理不可用' % (item[1],item[2])
                 with lock:
                     ProxyUtil.proxyNum -= 1
         print  '%s执行完毕' % threading.current_thread()
@@ -81,11 +100,12 @@ class checkProxy(threading.Thread):
 
 if __name__ == '__main__':
     sqlSessionFactory('172.16.19.203','data','opensesame','img_upload',30)
-    util = ProxyUtil('http://www.ly.com/huochepiao/Handlers/TrainListSearch.ashx?to=baigou&from=tielingxi&trainDate=2017-04-22&PlatId=1&callback=jQuery183004485401697308511',20)
+    util = ProxyUtil('http://mapi.dianping.com/searchshop.json?start=0&regionid=0&categoryid=10&cityid=2',20)
     util.jobStart(sqlSessionFactory)
-    file = open('proxy_list','a')
+    # file = open('proxy_list','w')
     for item in  util.useful_proxy:
-        file.write('%s%s'% (item[1],item[2]))
+        file_proxy.write('%s%s'% (item[1],item[2]))
+    print util.useful_proxy
 
 
 

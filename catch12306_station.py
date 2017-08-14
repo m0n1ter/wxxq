@@ -55,7 +55,7 @@ def increaseDate(dateStr,day=1):
 def save_train_info(item_url,useful_date,no):
     # {"trainNum": "D1", "departure": "北京", "arrive": "沈阳","date": "2017-03-25"}
     train_file_name = no+".html"
-    last_file_path = 'all_12306stations_417/%s'% train_file_name
+    last_file_path = 'all_12306stations_523/%s'% train_file_name
     if os.path.exists(last_file_path):
         print '%s has exist!' % train_file_name
     else:
@@ -82,10 +82,6 @@ def save_train_info(item_url,useful_date,no):
             f.close()
 
 def main():
-    if not os.path.exists('all_12306stations_417'):
-        os.mkdir('all_12306stations_417')
-    else:
-        print 'station info path exists!'
     base_url = "https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=%s&from_station_telecode=%s&to_station_telecode=%s&depart_date="
     train_code_list = sqlSessionFactory.select('SELECT start_station,end_station,train_no,useful_date,train_code from train_code_list GROUP BY train_code,train_no  ORDER BY train_code,useful_date desc')
     get_alia = "select abbreviation from station_name_12306 where station_name = '%s'"
@@ -109,9 +105,29 @@ def main():
         item_url = base_url % (train_no,s_alia,e_alia)
         save_train_info(item_url,useful_date,train_code)
 
+# 部分修复车次问题
+def part_main():
+    f = open('csxt.csv')
+    data = f.readlines()
+    base_url = "https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=%s&from_station_telecode=%s&to_station_telecode=%s&depart_date="
+    for line in data:
+        a = line.split(',')
+        s = a[0]
+        e = a[1]
+        t = a[2]
+        l = a[3]
+        l = l[0:l.rindex('\n')]
+        item_url =  base_url % (l,s,e)
+        save_train_info(item_url,'2017-05-30',t)
 if __name__ == "__main__":
+    if not os.path.exists('all_12306stations_523'):
+        os.mkdir('all_12306stations_523')
+    else:
+        print 'station info path exists!'
     sqlSessionFactory('172.16.19.203','data','opensesame','img_upload',20)
-    main()
+    # main()
+    part_main()
+    # save_train_info('https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=62000C697602&from_station_telecode=XTQ&to_station_telecode=CSQ&depart_date=','2017-05-23','C6976')
 
 
 

@@ -150,7 +150,5 @@ class Produce_Work(threading.Thread):
                 break
 
 if __name__ == "__main__":
-    if not os.path.exists('xc-price'):
-        os.mkdir('xc-price')
-    center = ScheduleCenter(1)
+    print get('http://trains.ctrip.com/TrainBooking/Search.aspx?from=wanyuan&to=xiaohezhen&day=2&number=&fromCn=%CD%F2%D4%B4&toCn=%D0%A1%BA%D3%D5%F2')
     # driver.quit()

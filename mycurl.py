@@ -4,14 +4,13 @@ import StringIO
 import pycurl
 import re
 
-
 version_header_regexp = re.compile(r'^(Last-Modified|ETag):\s*(.*)$', re.I)
 content_type_regexp = re.compile(r'^Content-Type:\s*([^;]*)($)|(;)', re.I)
 charset_header_regexp = re.compile(r'^Content-Type:.*charset=(.+)($)|(;)|(\s)', re.I)
 
 class CurlResponse:
 
-    def __init__(self, curl_instance, url, request_headers=[]):
+    def __init__(self, curl_instance, url, request_headers=[], proxy=None):
         curl_instance.setopt(pycurl.URL, url)
         self.headers = {} # Response Headers
 
@@ -24,6 +23,13 @@ class CurlResponse:
         curl_instance.fp = StringIO.StringIO()
         curl_instance.setopt(curl_instance.WRITEFUNCTION, curl_instance.fp.write)
         curl_instance.setopt(curl_instance.HEADERFUNCTION, self.write_header)
+        curl_instance.setopt(pycurl.SSL_VERIFYPEER, 0)
+        curl_instance.setopt(pycurl.SSL_VERIFYHOST, 0)
+        if proxy:
+            ip, port = proxy.split(':', 1)
+            curl_instance.setopt(pycurl.PROXY, str(ip))
+            curl_instance.setopt(pycurl.PROXYPORT, int(port))
+            curl_instance.setopt(pycurl.PROXYTYPE, pycurl.PROXYTYPE_HTTP)
 
         try:
             curl_instance.perform()
@@ -78,7 +84,7 @@ class CurlResponse:
         return "Response[status=%s, redirect=%s]" % (self.status, self.redirect_count)
 
 
-def get(url, timeout=15, request_headers=[], debug=False):
+def get(url, timeout=15, request_headers=[], debug=False, proxy=None ):
     if type(url) == unicode:
         url = str(url)
     crl = pycurl.Curl()
@@ -86,14 +92,14 @@ def get(url, timeout=15, request_headers=[], debug=False):
         crl.setopt(pycurl.VERBOSE,1)
     crl.setopt(pycurl.TIMEOUT, timeout)
     
-    response = CurlResponse(crl, url, request_headers)
+    response = CurlResponse(crl, url, request_headers, proxy)
     response.request_url = url
     return response
 
-def get_from_link_job(link_job, timeout=15, request_headers=[], debug=False):
+def get_from_link_job(link_job, timeout=15, request_headers=[], debug=False, proxy=None):
     if link_job.ip:
         request_headers.append('Host: %s' % link_job.domain)
-    response = get(link_job.ip_based_url, timeout, request_headers, debug)
+    response = get(link_job.ip_based_url, timeout, request_headers, debug, proxy)
     response.request_url = link_job.url
     return response
 
@@ -110,3 +116,9 @@ def post(url, data, debug=False):
 #    crl.setopt(crl.READFUNCTION, post_data.read)
 
     return CurlResponse(crl, url)
+
+
+
+# if __name__ == "__main__":
+#     response = get("http://www.cnblogs.com/UncleFreak/p/5720996.html",proxy='203.156.198.138:80')
+#     print response.body,response.status
