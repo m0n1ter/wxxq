@@ -1,0 +1,865 @@
+
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+            <title>习近平贯彻八项规定、推动作风建设综述_新改革时代</title>
+    
+    <meta name="keywords" content="" />
+    <meta name="description" content="2012年12月4日，中央政治局审议通过关于改进工作作风、密切联系群众的八项规定，即“中央八项规定”，至今已近5年。" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <script src="http://y0.ifengimg.com/38716b164e0f5e63/2013/1213/md5.js"></script>
+    <script src="http://y0.ifengimg.com/fe/detail/scripts/base-core_5664eba4.min.js"></script>
+    <script src="http://y0.ifengimg.com/ifeng/ifeng-index/20160122/BX.1.0.1.U.js"></script>
+    <script src="http://y0.ifengimg.com/commonpage/1130/F-RequireJS.min.js"></script>
+<script>
+    var suffix = device.type === "pc" ? ".pc" : ".mobile";
+
+    requirejs.config({
+        paths: {
+            // 基础模块
+            "F": "http://y0.ifengimg.com/base/origin/F-amd-1.2.0.min",
+            "FM":  "http://y0.ifengimg.com/commonpage/1130/F-amd-mobile-1.1.1.min",
+            "debug": "http://y0.ifengimg.com/commonpage/1130/F-amd-mobile-1.1.0.min",
+
+            // 头部
+            'keywords': 'http://m0.ifengimg.com/keywords',
+            "header": "http://y0.ifengimg.com/commonpage/1130/header.pc.min",
+            "search": "http://y0.ifengimg.com/commonpage/1130/header" + suffix + ".min",
+
+            // 轮播图
+            "ppt.pc": "http://p0.ifengimg.com/fe/zx2/scripts/ppt.pc_b844b957",
+            "ppt.mobile": "http://y0.ifengimg.com/commonpage/1205/ppt.mobile.min",
+
+            // 视频播放器
+            "video.pc": "http://p0.ifengimg.com/fe/news_detail/scripts/video_9137fc10",
+            "video.mobile": "http://y0.ifengimg.com/commonpage/1130/video.mobile.min",
+
+            // 评论相关
+            "comment.number": "http://p0.ifengimg.com/a/2016/1110/comment/comment_number_add1",
+            "recommend.comment_number": "http://p0.ifengimg.com/a/2016/1110/comment/comment_number_add1",
+            "comment.pc": "http://y0.ifengimg.com/a/2015/0530/comment.pc.v3.min",
+            "comment.mobile": "http://y0.ifengimg.com/commonpage/1216/v1/comment.mobile.min",
+
+
+            // tab切换 推荐 看了还看
+            "tabControl.pc": "http://y0.ifengimg.com/commonpage/1218/recommend.pc.min",
+            "recommend.pc": "http://y1.ifengimg.com/a/2015/0519/comment.pc.v2.0519.min",
+            "readAndRead": "http://y0.ifengimg.com/commonpage/1206/recommend" + suffix + ".min",
+
+            "survey.pc": "http://y0.ifengimg.com/commonpage/1203/survey.pc.min",
+
+            //pc端分享(内容分享和划词分享)
+            "share.pc": "http://y0.ifengimg.com/commonpage/2016/0125/utils.pc.min",
+            //移动端分享(内容分享)
+            "share.mobile": "http://y0.ifengimg.com/commonpage/2014/0612/utils.mobile.min",
+            //返回顶部
+            "utils": "http://y0.ifengimg.com/commonpage/2016/0125/utils.pc.min",
+            //48小时点击排行浮动
+            "floatIt.pc" : "http://y0.ifengimg.com/commonpage/2016/0125/utils.pc.min",
+            "picLazy": "http://y0.ifengimg.com/commonpage/2016/0125/utils.pc.min",
+
+            // 通用登录
+            "public_login": "http://y1.ifengimg.com/commonpage/20151202/public_login.min",
+
+            "jquery#1.8.1" : "http://y1.ifengimg.com/fe/jQuery/jquery-1.8.1.min",
+            "getSurveyHtml":"http://p1.ifengimg.com/a/2016/0810/com-box-survey_8e15dcd7",
+            //点赞
+            "dianzan":"http://p0.ifengimg.com/fe/news_detail/scripts/dianzan_554f2bc4",
+            //ppt的模板
+            "artTemplate#3.0.3" : "http://p0.ifengimg.com/fe/product_wzyh/scripts/template_b75f1e4e",
+            "product_wzyh#1.0.1/template":"http://p0.ifengimg.com/fe/product_wzyh/scripts/product_wzyh_template_9c201afd"
+        },
+        waitSeconds: 20,
+        shim: {}
+    });
+    tasker.runAfterDomReady();
+</script>
+
+    <script>
+        define('detail', [], function() {
+            return {
+                "docName": "习近平贯彻八项规定、推动作风建设综述",
+                "docUrl": "http://news.ifeng.com/a/20170929/52220276_0.shtml",
+                "commentUrl":"http://news.ifeng.com/a/20170929/52220276_0.shtml",
+                "summary": '',
+                "skey": "602161",
+                "image": "http://p2.ifengimg.com/a/2017_39/66f88ebb81fbca4_size45_w599_h399.jpg"
+            };
+        });
+    </script>
+    <link rel="stylesheet" href="http://p0.ifengimg.com/fe/zxyc-article/styles/zxyc-article_main_0c11bb31.min.css">
+    <script>
+        if (glue.device.type == "pad") {
+            document.write('<link rel="stylesheet" href="http://p0.ifengimg.com/fe/zxyc-article/styles/zxyc-article_main_pad_3cb9aefd.min.css"><style>.iphone_block{display:block}</style>');
+        }
+    </script>
+    <script>
+        if (glue.device.type == "mobile") {
+            document.write('<link rel="stylesheet" href="http://p0.ifengimg.com/fe/zxyc-article/styles/zxyc-article_main_mobile_3cb9aefd.min.css"><style>.iphone_block{display:block}</style>');
+        }
+    </script>
+    <script>
+        if (glue.device.type == "pc") {
+            document.write('<link rel="stylesheet" href="http://p0.ifengimg.com/fe/zxyc-article/styles/zxyc-article_main_pc_5e88147e.min.css">');
+        }
+    </script>
+    <script>
+    if (device.type !== "pc") {
+        define('renderCommentCount', [], function () {
+            return function (num1, num2,num3) {
+                var doms = document.querySelectorAll(".js_commentCount");
+                if(!num3 == 0 && !num1 ){//关闭评论并删除评论内容
+                    for (var i = 0, iLen = doms.length; i < iLen; i++) {
+                        doms[i].hide()
+                    }
+                    return false;
+                }else{
+                    window["__commentCount"] = [num1, num2];
+                    for ( i = 0; i < iLen; i++) {
+                        doms[i].innerHTML = '<span class="ss_none"><em>' + num2 + '</em>人参与</span><em>' +
+                            num1 + '</em><span class="ss_none">评论</span>';
+                    }
+                }
+            };
+        });
+
+        define("jumpToCommentView", ["detail"], function (detail) {
+
+            var skey = detail.skey ? '&skey=' + encodeURIComponent(detail.skey) : "";
+            var speUrl = detail.speUrl ? 'speUrl=' + encodeURIComponent(detail.speUrl) : "";
+            var url = 'http://gentie.ifeng.com/view.html';
+            url = url + "?docName=" + encodeURIComponent(detail.docName) +
+                '&docUrl=' + encodeURIComponent(detail.commentUrl) + skey + speUrl;
+            return function () {
+                window.open(url, "comment", "");
+            }
+        });
+
+        creatTasker("auto", ["FM", "detail", "renderCommentCount"], function (F, detail, renderCommentCount) {
+            var commentCountUrl = 'http://comment.ifeng.com/get.php';
+
+            if (typeof __commentCount !== "undefined") {
+                renderCommentCount(__commentCount[0], __commentCount[1]);
+            } else {
+                F.jsonp({
+                    url: commentCountUrl,
+                    data: {
+                        doc_url: detail.commentUrl,
+                        format:'js',
+                        job:1,
+                        callback:'callbackGetFastCommentCount'
+                    },
+                    cache:true,
+                    callback: "callbackGetFastCommentCount",
+                    success: function (cmtJson) {
+                        renderCommentCount(cmtJson.count, cmtJson.join_count,cmtJson.allow_comment);
+                    }
+                });
+            }
+        }, "next", "获取评论数");
+    } else {
+        creatTasker("auto", ["comment.number", "detail"], function (commentNumber, detail) {
+            var detailNew = {
+                "docName": detail.docName,
+                "docUrl": detail.commentUrl || detail.docUrl,
+                "skey":detail.skey,
+                "pcUrl":detail.docUrl
+            };
+            
+            commentNumber(detailNew);
+        }, "next", "当前位置获取评论数");
+        creatTasker("auto", ["recommend.comment_number"], function (commentNumber) {
+            commentNumber();
+        }, "next", "推荐位置获取评论数");
+    }
+</script>
+    
+        <script src="//m1.ifengimg.com/ifeng/sources/inice_v1.js"></script>
+    
+    
+        <script src="//p0.ifengimg.com/a/2017/0324/fa.min.js"></script>
+    
+</head>
+
+<body>
+    <img src="http://p2.ifengimg.com/a/2017_39/66f88ebb81fbca4_size45_w599_h399.jpg" style="width:0; height:0; display: block;"/>
+    <!--h_top_box-->
+    <div class="h_top_box">  <a href="http://news.ifeng.com/o/dynpage/64-/1/plist.shtml" target="_blank"><img src="http://p0.ifengimg.com/a/2016/0922/d29d70ee87f06f8size33_w1000_h90.jpg" /></a></div>
+
+
+    <!--yc_head-->
+    <div class="yc_head" id="top">
+        <div class="wrap">
+                        <div>
+                <div class="h_logo">
+                    <a href="http://news.ifeng.com/xijinping/" target="_blank"><img src="http://p3.ifengimg.com/a/2016/0518/516c29334d81161size6_w277_h65.png" alt=""/></a>
+                </div>
+                <div class="h_logo_r">凤凰资讯出品</div>
+                <div class="h_nav"><a href="http://news.ifeng.com/xijinping/" target="_blank">频道首页</a> | <a href="http://www.ifeng.com/" target="_blank">凤凰网首页</a></div>
+            </div>
+            <!-- 登录搜索 begin -->
+             <div class="fr LogLis">
+                    <div class="Login fl"><a id="btnSwapLogin" href="javascript:;">登录</a></div>
+                    <div class="LoginAfter fl" id="welcome" style="display: none;"></div>
+                    <div class="Search fl">
+                        <div class="navFind fl" id="navFind" style="display:none">
+                            <form id="search_form" method="get" action="http://search.ifeng.com/sofeng/search.action" target="_blank">
+                                <span>
+                                    <input id="keyword" type="text" name="q" value="" class="text" autocomplete="off"/>
+                                    <input id="param1" type="hidden" name="c" value="1"/>
+                                    <input id="param2" type="hidden" name="" value="" disabled="disabled"/>
+                                </span>
+                                <div id="searchFormOption">
+                                    <style>
+                                        .arrowfold {
+                                            background: url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0802/arrowfold.gif) no-repeat right center;
+                                        }
+                                    </style>
+                                    <span id="loginUl" class="sel">站内</span>
+                                    <ul id="loginFldselectop" style="display:none">
+                                        <li id="ra1"><a>站内</a></li>
+                                        <li id="ra2"><a>站外</a></li>
+                                        <li id="ra3"><a>证券</a></li>
+                                        <li id="ra4"><a>汽车</a></li>
+                                        <li id="ra0"><a>视频</a></li>
+                                    </ul>
+                                </div>
+                                <span><input type="submit" value="" id="btnSearch1" class="button" style="cursor: pointer;"/></span>
+            
+                                <div class="srhClose" id="srhClose"></div>
+                                <div class="clear"></div>
+                                <div id="suggest_list" class="stockList"></div>
+                                <div class="clear"></div>
+                            </form>
+                        </div>
+                        <a class="searchBtn" id="searchBtn" href="javascript:;">查找</a>
+                    </div>
+                </div>      
+            <!-- 登录搜索 end -->
+        </div>
+    </div>
+    <script src="http://y0.ifengimg.com/fe/zxyc-article/scripts/www_index_new_d299fe13.js"></script>
+    <!--yc_main-->
+    <div class="yc_main wrap">
+        <!--yc_tit-->
+        <div class="yc_tit">
+            <h1>习近平贯彻八项规定、推动作风建设综述</h1>
+            <p><span>2017-09-29  09:10:17</span><a  href="http://news.xinhuanet.com/politics/2017-09/29/c_1121741709.htm" target="_blank">
+                新华通讯社</a> 
+            </p>
+
+            <div class="box03" id="js_comment_box03" style="display: none">
+    <h5 class="cmt js_commentCount" id="js_commentCount_top">
+         <span class="ss_none">
+         <a href="javascript:void(0);" target="_blank" class="js_joinUrl js_peopleNumber"><em class="js_joinNum"></em><span>人参与</span></a>
+         </span>
+        <a href="javascript:void(0);" target="_blank" class="js_cmtUrl js_commentNumber"><em class="js_cmtNum"></em><span class="ss_none">评论</span></a>
+    </h5>
+    <script>
+        // @TODO: 当前位置获取评论数
+        if (device.type !== "pc") {
+            creatTasker("auto", ["FM", "renderCommentCount", "jumpToCommentView"], function(F, renderCommentCount, jumpToCommentView) {
+                if (typeof __commentCount !== "undefined") {
+                    renderCommentCount(__commentCount[0], __commentCount[1]);
+                }
+                F.tap(F.one("js_commentCount_top"), function () {
+                    jumpToCommentView();
+                });
+            }, "next", "当前位置获取评论数");
+        } else if (typeof window['PEOPLE_NUMBER'] !== "undefined") {
+            document.getElementById("js_comment_box03").style.display= "block";
+            document.getElementById("js_commentCount_top").getElementsByTagName("em")[0].innerHTML = window['PEOPLE_NUMBER'];
+            document.getElementById("js_commentCount_top").getElementsByTagName("em")[1].innerHTML = window['COMMENT_NUMBER'];
+        }
+    </script>
+</div>
+            
+
+        </div>
+        <!--yc_con-->
+        <div class="yc_con clearfix">
+            <div class="yc_con_l">
+                
+                <!--article-->
+                <div class="yc_con_txt" id="yc_con_txt">
+                    <div id="slideNoInsertDefault"></div>
+                    <!-- 视频begin -->
+                    
+           
+                    <!-- 视频end -->
+                    <!-- 幻灯begin -->
+                    <!-- 幻灯end -->
+                   
+                    <!-- 正文begin -->
+                     <p>原标题：八项规定，激浊扬清之剑&mdash;&mdash;党的十八大以来以习近平同志为核心的党中央贯彻执行八项规定、推动作风建设综述</p><p>&mdash;&mdash;党的十八大以来以习近平同志为核心的党中央贯彻执行八项规定、推动作风建设综述</p><p>新华社北京9月28日电 八项规定，一个改变中国的政治语汇，开启了中国共产党激浊扬清的作风之变。</p><p>2012年12月4日，中央政治局审议通过关于改进工作作风、密切联系群众的八项规定，即&ldquo;中央八项规定&rdquo;，至今已近5年。</p><p>5年徙木立信。以习近平同志为核心的党中央以强烈的历史担当和顽强的意志品质，直面党内存在的种种问题和弊端，从制定和执行中央八项规定破题，严字当头、刀刃向内，坚定不移推进全面从严治党，解决了许多过去认为不可能解决的问题，党风政风和社会风气发生了全面深刻、影响深远、鼓舞人心的变化。中央八项规定，试出了人心向背，厚植了党的执政根基。</p><p style="text-align:center"><img src="http://p2.ifengimg.com/a/2017_39/e8cd621c4a5c323_size67_w440_h599.jpg" alt="" /></p><p><span style="font-family: 楷体_GB2312, 楷体;"><span style="font-size: 14px;">2014年1月27日，在杭州西湖十景之一的&ldquo;曲院风荷&rdquo;内，高档会所&ldquo;西湖会&rdquo;的&ldquo;荷香酒溢&rdquo;招牌（上图）被换成大众化的&ldquo;开心茶馆&rdquo;（下图）（拼版照片）。转型后的&ldquo;西湖会&rdquo;从一家高档经营场所变身为服务大众、经营大众餐饮的场所。新华社记者王定昶摄</span></span></p><p>5年春风化雨。各级党组织、各地区各部门、广大党员干部在思想上政治上行动上同以习近平同志为核心的党中央保持高度一致，把贯彻落实中央八项规定精神作为一项重大政治任务来抓，牢固树立政治意识、大局意识、核心意识、看齐意识，驰而不息纠&ldquo;四风&rdquo;、改作风。时至今日，八项规定成为十八届党中央抓全面从严治党的亮丽名片，成为改变中国党风政风社会风气的标志性话语。</p><p><strong>以行动作号令 以身教作榜样</strong></p><p>&mdash;&mdash;以习近平同志为核心的党中央始终从政治上认识和对待作风问题，率先垂范、以上率下，为全党树立起光辉典范</p><p>人们依然清晰记得5年前的这一幕场景&mdash;&mdash;</p><p>2012年12月7日下午，广东深圳，通向前海深港合作区的道路畅通如常，一个由8辆车组成的车队融入车流，与公交、出租车、私家车并行，按照交通信号灯的指令行进。</p><p>不腾道、不封路、不扰民，不铺红地毯、没有欢迎横幅，没有层层陪同，与群众不期而遇，习近平总书记在党的十八大后首次出京考察令人印象深刻。</p><p>就在3天前，中央政治局会议审议通过了中央八项规定。</p><p>中央八项规定，短短600多字，却内涵丰富，从调查研究、会议活动、文件简报、出访活动、警卫工作、新闻报道、文稿发表、勤俭节约等8个方面对加强作风建设立下规矩，不搞四平八稳，不喊空洞口号，直面现实问题，提出具体要求。这是以习近平同志为核心的党中央深刻洞察党内存在的问题，抓全面从严治党的&ldquo;第一刀&rdquo;。</p><p>正是在这次会议上，习近平总书记带头作出承诺、发起号召，对新一届中央政治局委员提出要求：</p><p>&ldquo;党风廉政建设，要从领导干部做起，领导干部首先要从中央领导做起。正所谓己不正，焉能正人。&rdquo;</p><p>&ldquo;规矩是起约束作用的，所以要紧一点。&rdquo;&ldquo;我们不舒服一点、不自在一点，老百姓的舒适度就好一点、满意度就高一点，对我们的感觉就好一点。这也是新形象新气象。&rdquo;</p><p>善禁者，先禁其身而后人。</p><p>接过历史接力棒的新一代共产党人，从立规矩开始，从作风建设切入，从最高领导层做起，开启了再塑自身形象的&ldquo;第一行动&rdquo;。</p><p>36次中央政治局常委会会议、21次中央政治局会议，对贯彻执行中央八项规定、加强作风建设进行专门研究部署；</p><p>每年召开的中央全会、中央纪委全会、中央经济工作会议等重要会议，习近平总书记都对作风建设提出明确要求；</p><p>党中央先后部署开展党的群众路线教育实践活动、&ldquo;三严三实&rdquo;专题教育、&ldquo;两学一做&rdquo;学习教育，把贯彻执行中央八项规定精神、解决作风建设方面的问题作为重要内容；</p><p>中央政治局先后召开3次民主生活会，对照检查执行中央八项规定的情况，进行党性分析，开展批评和自我批评，研究加强自身建设和作风建设的措施。</p><p>&hellip;&hellip;</p><p>5年来，以习近平同志为核心的党中央始终把贯彻执行中央八项规定精神、加强作风建设放在突出位置来抓，作出了一系列重大决策部署。</p><p>&ldquo;工作作风上的问题绝对不是小事，如果不坚决纠正不良风气，任其发展下去，就会像一座无形的墙把我们党和人民群众隔开。&rdquo;</p><p>&ldquo;党的作风就是党的形象，关系人心向背，关系党的生死存亡。执政党如果不注重作风建设，听任不正之风侵蚀党的肌体，就有失去民心、丧失政权的危险。&rdquo;</p><p>&ldquo;我们要与人民心心相印、与人民同甘共苦、与人民团结奋斗。&rdquo;&ldquo;一定要一块过、一块干，保持和发扬党的光荣传统和优良作风，保持同人民群众的血肉联系，切实把工作做好。&rdquo;</p><p>&ldquo;只有坚持问题导向，从细处入手，向实处着力，一环紧着一环拧，一锤接着一锤敲，才能积小胜为大胜。&rdquo;</p><p>&ldquo;在改进作风问题上，我们不能退，也退不得。&rdquo;&ldquo;必须抓常、抓细、抓长，持续努力、久久为功。&rdquo;</p><p>&hellip;&hellip;</p><p>5年来，习近平总书记始终从关乎党的兴衰存亡、巩固党的执政地位、实现党的执政使命的政治高度，严肃对待作风问题，高度重视作风建设，在不同阶段、不同场合发表了一系列重要讲话，并先后作出51次重要批示，为贯彻落实中央八项规定精神指出明确方向，提出根本遵循。</p><p>言出必信，行胜于言。</p><p>5年来，习近平总书记以身作则、率先垂范，始终带头严格执行中央八项规定，给全党树立了典范，向全国人民持续传递信心和力量。</p><p>深入地方考察调研50次、151天，足迹遍及全国各地，深入农村、社区、工厂车间、港口码头、边关哨所，每次考察调研都是轻车简从，深入基层，察实情、重实效。</p><p>从赴广东考察工作时吃自助餐，到赴河北调研时吃大盆菜；从在河北阜平住16平方米的房间，到在四川芦山地震灾区住临时板房；从在湘西同村民一起摘柚子，到去北京庆丰包子铺排队点餐；从在陕北梁家河用自己的钱为乡亲购买年货，到在长白山下的田间地头关心农业生产&hellip;&hellip;点滴之间，彰显共产党人的政治本色和为民情怀。</p><p style="text-align:center"><img src="http://p2.ifengimg.com/a/2017_39/66f88ebb81fbca4_size45_w599_h399.jpg" alt="" /></p><p><span style="font-family: 楷体_GB2312, 楷体;"><span style="font-size: 14px;">福建武夷山市纪委组织的检查组人员在武夷山度假区一家私人会所进行公款消费检查（2014年9月1日摄）。新华社记者张国俊摄</span></span></p><p>习近平总书记始终把群众放在心中最高位置，特别关心贫困群众生产生活，每到一个地方都要到贫困村和贫困户看望慰问、了解情况，与困难群众共商脱贫办法，鼓励他们早日致富奔小康。2015年2月，在陕西延安主持召开陕甘宁革命老区脱贫致富座谈会，强调要让老区人民都过上幸福美满的日子；2015年6月，在贵州贵阳主持召开扶贫攻坚座谈会，强调要在精准扶贫、精准脱贫上下更大功夫；2016年7月，在宁夏银川主持召开东西部扶贫协作座谈会，强调要真扶贫、扶真贫、真脱贫；2017年6月，在山西太原主持召开深度贫困地区脱贫攻坚座谈会，强调要确保深度贫困地区和贫困群众同全国人民一道进入全面小康社会。</p><p>出国访问28次、191天，到访五大洲52个国家，每次出访都严格做到切实精简随行人员，日程安排紧凑合理，活动开展务实高效，带头执行中央八项规定中关于外事活动的要求，严禁随行人员收受驻外使领馆任何馈赠&hellip;&hellip;言行细节，展现大国领袖的务实担当和崇高风范。</p><p>与此同时，习近平总书记每年都以普通党员身份参加所在党支部活动，模范践行党章和党内政治生活准则，体现了一名共产党员坚如磐石的党性观念、以上率下的领袖风范、从严从实的执政品格，为全党作出了表率。</p><p>李克强、张德江、俞正声、刘云山、王岐山、张高丽同志和其他中央政治局同志严于律己、以实际行动模范践行中央八项规定，并切实抓好分管领域、分管部门、分管地方的贯彻落实。</p><p>一份份督查报告，展现出党中央贯彻执行八项规定、推进作风建设的扎实成效&mdash;&mdash;</p><p>在改进调查研究方面。5年来，中央政治局同志深入地方和基层开展调研共1587次、3212天，平均每人每年调研17次、34天。考察调研坚持轻车简从，减少陪同，简化接待，务求实效。</p><p>在精简会议活动方面。严格控制以中央名义召开的全国性会议，精简一般性事务性会议活动。持续简化中央领导同志节日活动，不再举办首都春节联欢文艺晚会和元宵晚会。坚持开短会、讲短话，不讲空话套话。中央全会、全国&ldquo;两会&rdquo;等重要会议会风不断改善。</p><p>在精简文件简报方面。科学编制中央年度发文计划，从严把好发文关，较好控制了发文数量，提高了文件质量。严格实施简报备案制度，地方和部门报送党中央、国务院的简报数量分别从原来的500多种、300多种减少到130多种、200多种。</p><p>在规范出访活动方面。紧紧围绕党和国家中心工作和外交战略需要，统筹安排领导同志外事活动，科学制定出访计划，严格控制访问次数、天数、国家数、随访人数，按规定乘坐交通工具。</p><p>在改进警卫工作方面。严格落实不封路不腾道、不清场不闭馆要求，坚持内紧外松、防范在先，使安全措施扎实严密、形式缓和宽松，努力实现政治效果、安全效果和社会效果的有机统一。</p><p>在改进新闻报道方面。严控一般性会议活动新闻报道，认真执行字数、时长等规定，规范新闻体裁运用、职务表述、列名方式等。创新新闻宣传方式，充分发挥全媒体优势。</p><p>在严格文稿发表方面。除党中央统一安排外，中央政治局同志没有公开出版著作、讲话单行本，没有发贺信贺电，没有题词题字。</p><p>在厉行勤俭节约方面。按照&ldquo;保障工作需要、待遇适当从低&rdquo;的原则，制定出台党和国家领导人有关待遇的系列文件，对办公用房、住房、用车、交通、工作人员配备、休假休息等待遇进一步作出规定。这些规定从十八届中央政治局率先做起。</p><p>&hellip;&hellip;</p><p>以身教者从，以言教者讼。</p><p>以习近平同志为核心的党中央认真贯彻执行中央八项规定，不打折扣、不做变通，以行动作无声的号令、以身教作执行的榜样，诠释了改进作风的根本要求，为全党同志树立了标杆，形成了巨大的&ldquo;头雁效应&rdquo;。</p><p><strong>始终动真碰硬 坚持标本兼治</strong></p><p>&mdash;&mdash;以习近平同志为核心的党中央直面人民群众反映强烈的突出问题，出实招、动真格，作风建设成绩斐然</p><p>2013年9月28日，中央纪委公开通报了一起违反中央八项规定精神的典型问题：海南省卫生学校违规购买384份月饼券，发放给教职工共计12万余元，所需费用在学费收入财政返还资金中列支。</p><p>这是全国第一起因违规购买月饼而被处理并通报的案例。小小月饼背后，折射出抓作风的清晰思路。</p><p>世间事，做于细，成于严。</p><p>习近平总书记深刻指出：&ldquo;我们抓中央八项规定贯彻落实，看起来是小事，但体现的是一种精神&rdquo;&ldquo;作风问题有的看起来不大，几顿饭，几杯酒，几张卡，但都与公私问题有联系，都与公款、公权有关系。&rdquo;</p><p>作风问题常起于毫末、积于忽微，作风之变也成于抓早抓小、防微杜渐。</p><p style="text-align:center"><img src="http://p3.ifengimg.com/a/2017_39/ca235c160b7a98f_size50_w600_h419.jpg" alt="" /></p><p><span style="font-family: 楷体_GB2312, 楷体;"><span style="font-size: 14px;">市民在广州白云山山顶的&ldquo;望景餐厅&rdquo;吃米粉、赏美景（2015年5月1日摄）。这里曾是不少官员涉足的私人会所，最低消费8888元。中央整治&ldquo;会所中的歪风&rdquo;后，这家会所开始向大众化经营转型。新华社记者卢汉欣摄</span></span></p><p>从针对中央政治局出台的中央八项规定，到将其贯彻落实到各地区各部门的中央八项规定精神，八项规定在以上率下的示范和引导中，不断扩展到每一名党员和每一个党组织。</p><p>中央八项规定，治全党，靠全党。</p><p>各级党组织、各地区各部门、广大党员干部不断提高政治站位，将能不能贯彻落实中央八项规定精神，作为是否同以习近平同志为核心的党中央保持高度一致，是否具有坚定的&ldquo;四个意识&rdquo;，是否是一名合格的党员干部的高度来对待，主动、自觉执行中央八项规定精神，形成上下联动、齐抓共管的强大力量。</p><p>5年来，在以习近平同志为核心的党中央坚强领导下，一系列剑指作风之弊的实招硬招频频出击，一项项针对作风建设的组合拳效果空前，每年都有新招数，不断释放新信号。</p><p>&mdash;&mdash;细处着眼，以点带面。</p><p>先从公款购买赠送月饼、贺年卡、烟花爆竹等群众反映强烈的具体问题抓起，一连下发3道禁令；之后又拓展到抓违规公款吃喝送礼、公款旅游、公车私用、违规建设楼堂馆所、大办婚丧喜庆、滥发钱物、出入私人会所等12个方面具体问题。</p><p>一个节点一个节点坚守，一个阶段一个阶段推进。中央办公厅、国务院办公厅每年元旦春节都要专门印发通知，强调贯彻落实中央八项规定精神，提出具体要求，坚决杜绝&ldquo;节日腐败&rdquo;。纪检监察机关端午抓公款购买粽子等节礼、中秋抓公款购买月饼等节礼、春节抓公款购买爆竹等年货节礼，抓早抓小、串点成线，以一个个具体问题的突破，带动面上问题的解决。</p><p>从群众反映最强烈的公款吃喝、公款送礼、公款旅游这三类问题来看，截至2016年12月，全国查处的公款吃喝、送礼、旅游（国内）这三类问题共3.18万起，违纪行为发生在2013、2014年的占到76.1%，发生在2015年的占16.7%，发生在2016年的仅为7.2%，逐年大幅下降。</p><p>许多党员干部感慨，过去上百个文件管不住一张嘴，没想到一个八项规定就把嘴管住了。</p><p>新加坡《联合早报》这样描述八项规定：当时很少人预见到，公款吃喝、文山会海等中国官场的&ldquo;老大难&rdquo;问题，竟然出现如此明显的改善。</p><p>&mdash;&mdash;专项整治，攻克顽疾。</p><p>习近平总书记针对&ldquo;舌尖上的浪费&rdquo;&ldquo;会所中的歪风&rdquo;&ldquo;车轮上的铺张&rdquo;等现象作出重要批示，强调&ldquo;奢靡之始、危亡之渐&rdquo;，对群众深恶痛绝的突出问题，必须严厉惩处、坚决刹住。</p><p>各地区各部门按照党中央部署开展专项整治任务，扭住不放、精准发力，刹住了一些曾被认为不可能刹住的歪风邪气，攻克了一些曾被认为司空见惯的顽瘴痼疾。</p><p>全国共整顿各类会所512家、处置456家，关停高尔夫球场187个，核查清理625家驻京办事机构，做到应撤尽撤；</p><p>中央和国家机关、29个省区市直属机关公车改革完成，节支率分别达到14%、7.9%；</p><p>停止新建楼堂馆所，全面完成办公用房清理，全国共调整清理办公用房2227.6万平方米。</p><p style="text-align:center"><img src="http://p0.ifengimg.com/a/2017_39/7969dab0ec37bb4_size57_w600_h400.jpg" alt="" /></p><p><span style="font-family: 楷体_GB2312, 楷体;"><span style="font-size: 14px;">江西省上饶市万年县陈营镇马塘社区纪检监察干事黄中华在为党员和群众做题为&ldquo;把纪律挺在前面&rdquo;的专题宣讲（2015年10月28日摄）。新华社记者万象摄</span></span></p><p>清理党政领导干部在企业兼职4万余人次、国有企事业单位领导人员在企业兼职2万余人次，其中中管干部358人次，清理退（离）休领导干部在社团兼职5.6万余人次。</p><p>&mdash;&mdash;铁面执纪，寸步不让。</p><p>一大批党员领导干部因为&ldquo;小节&rdquo;不仅受到党纪政纪处分，还上了&ldquo;曝光台&rdquo;。</p><p>从高级干部违纪违法典型案例暴露出来的问题看，有一些就是在党的十八大后严重违反中央八项规定精神的，如周本顺、王珉、王三运等。</p><p>坚决查处、严肃问责、一律曝光！</p><p>5年来，各级党委（党组）以最讲认真的精神、零容忍的态度，猛药去疴、严查严处，充分发挥巡视巡察利剑作用，有力维护了中央八项规定的权威性和严肃性，真正使中央八项规定成为&ldquo;铁八条&rdquo;。</p><p>强化党内监督，充分发挥社会监督、舆论监督作用，注重运用新媒体，设立曝光平台、手机随手拍和微信一键通，形成了无处不在的监督网。</p><p>动真格，成为了人们对中央抓八项规定的突出印象；持续动真格，成为过去5年的常态，形成了知畏知止、收敛收手的压倒性态势。</p><p>坚持发现一起、查实处置一起，持续释放越往后越严的信号。5年来，全国共查处违反中央八项规定精神问题17.61万起，处理党员干部23.9万人，给予党纪政纪处分12.8万人，平均每天约有140人受处理。</p><p>加大点名道姓通报曝光力度，中央纪委共通报曝光31批、167起典型问题，涉及中管干部30人，对2016年以后发生的违反中央八项规定精神受到党纪政纪处分人员，原则上都要点名道姓通报曝光。</p><p>2015年、2016年，全国因违反中央八项规定精神问题被追究主体责任、监督责任的领导干部分别为6010余人、6770余人，2017年仅上半年就追责3960余人，问责力度不断加大。</p><p>有的党员干部坦言，中央八项规定开始时，觉得&ldquo;吃点喝点&rdquo;&ldquo;转转看看&rdquo;不是多大个事儿，现在给机会也不敢干了，因为一顿饭、一点小礼挨处分被通报，不仅自己在单位&ldquo;挺不起腰&rdquo;，家里人也跟着&ldquo;丢面子&rdquo;，实在不值得。</p><p>&hellip;&hellip;</p><p>善除害者查其本，善理疾者绝其源。</p><p>抓作风建设，如何既治标又治本？习近平总书记明确强调：&ldquo;坚持破立并举，注重建章立制&rdquo;&ldquo;在坚持中见常态，向制度建设要长效&rdquo;。</p><p>2013年10月，《党政机关厉行节约反对浪费条例》印发施行。随后包括《党政机关国内公务接待管理规定》《关于严禁党政机关到风景名胜区开会的通知》《关于调整中央和国家机关差旅住宿费标准等有关问题的通知》等20多个配套制度，为贯彻落实中央八项规定精神、从源头上刹住奢侈浪费之风提供了一个可执行、可操作的顶层规范。</p><p>党中央制定出台党内政治生活准则、廉洁自律准则、党内监督条例、纪律处分条例、问责条例等一批党内法规，把中央八项规定精神要求纳入其中，为作风建设提供有力保障；各地区各部门普遍结合实际制定了贯彻落实中央八项规定精神的实施办法、细则及配套制度。</p><p style="text-align:center"><img src="http://p2.ifengimg.com/a/2017_39/9e20b2e2205aca5_size52_w600_h402.jpg" alt="" /></p><p><span style="font-family: 楷体_GB2312, 楷体;"><span style="font-size: 14px;">江苏省省级机关公车改革中取消车辆的首场公开拍卖在南京国际展览中心举行（2016年1月10日摄）。新华社记者孙参摄</span></span></p><p>党员干部普遍反映，随着规矩越来越明晰，许多事都有硬&ldquo;杠杠&rdquo;，别说&ldquo;禁区&rdquo;&ldquo;红线&rdquo;不能踩，打个&ldquo;擦边球&rdquo;也不行了，一条条制度红线绑住了&ldquo;任性的权力&rdquo;。</p><p>立规矩&ldquo;治身&rdquo;，更需强信念&ldquo;治心&rdquo;。</p><p>抓作风建设，如何筑牢根基？习近平总书记深刻指出：&ldquo;作风问题本质上是党性问题。抓作风建设，就要返璞归真、固本培元，重点突出坚定理想信念、践行根本宗旨、加强道德修养。&rdquo;</p><p>5年来，不断深入的思想政治建设和连续开展的党内教育活动，为中央八项规定精神落地生根打下了坚实的思想基础。</p><p>2013年至2014年开展的党的群众路线教育实践活动，以为民务实清廉为主题，聚焦&ldquo;四风&rdquo;突出问题，对作风之弊、行为之垢进行大排查、大检修、大扫除，通过召开高质量的民主生活会，开展严肃认真的批评和自我批评，党员干部受到了一次深刻的群众路线再教育，强化了宗旨意识，锤炼了党性修养。</p><p>2015年启动的&ldquo;三严三实&rdquo;专题教育把贯彻落实中央八项规定精神作为重要内容，聚焦对党忠诚、个人干净、敢于担当，着力解决&ldquo;不严不实&rdquo;问题。</p><p>2016年推开的&ldquo;两学一做&rdquo;学习教育，把党的思想政治建设延伸到了所有基层党组织和全体党员，全体党员党章党规党纪意识明显增强，严肃党内政治生活，自觉接受监督，实现了在思想、作风、纪律上的新进步。</p><p>这不仅是一次直面现实的&ldquo;问题清扫&rdquo;，也是一次回归传统的&ldquo;思想整风&rdquo;，更是一次党内政治生态的&ldquo;集中净化&rdquo;。</p><p>数字是最有力的证明&mdash;&mdash;</p><p>中央纪委数据显示，在截至2016年12月查处的15.53万起问题中，违纪行为发生在2013、2014年的为12.15万起，占到78.2%；违纪行为发生在2015年的有2.34万起，占15.1%；违纪行为发生在2016年的有1.04万起，仅为6.7%，表明违纪增量不断减少，违反中央八项规定精神问题得到有效遏制。</p><p>财政部数据显示，从2012年到2016年，中央本级&ldquo;三公&rdquo;经费实现&ldquo;四连降&rdquo;，2016年中央本级&ldquo;三公&rdquo;经费比2012年累计减少26亿元，累计降幅达35.0%，其中因公出国（境）费、公务用车购置及运行费、公务接待费分别累计下降6.5%、36.4%和70.3%。</p><p>久久为功，善作善成。</p><p>以习近平同志为核心的党中央以讲认真的态度、有担当的行动、求实效的精神、务长远的思维，推动中央八项规定精神落地生根。</p><p>党内正气上升社会风气上扬</p><p>&mdash;&mdash;以习近平同志为核心的党中央始终立足根本、着眼长远，以可知可感的切实变化，凝聚起继续前进的磅礴力量</p><p>&ldquo;以前逢年过节，我的车都会被人包下，拉着一车礼品满北京城转悠，这几年没有这种现象了。&rdquo;对于中央八项规定实施前后的变化，北京出租车司机黄师傅这样描述。</p><p>细微之处见变化，百姓心中自有秤。</p><p>作风建设的目的是什么？成效如何评判？</p><p>习近平总书记深刻指出：&ldquo;作风问题，核心是党和人民群众的关系问题，根本是始终保持党同人民群众的血肉联系。&rdquo;</p><p>&ldquo;老百姓看作风建设，主要不是看开了多少会、讲了多少话、发了多少文件，而是看解决了什么问题。&lsquo;春江水暖鸭先知&rsquo;，有没有变化，老百姓体会最深。&rdquo;</p><p>一年一个样，五年大变样。</p><p>5年来，中央八项规定在整个神州大地涤荡起一股激浊扬清的净化之风，广大干部群众在一个又一个细节、一件又一件小事中感受到了切切实实的变化。</p><p>公款送礼之风基本刹住了&mdash;&mdash;</p><p>曾几何时，公款收送节礼的歪风让大量名烟、名酒等过剩礼品流向市场，让许多高档礼品回收店赚得盆满钵满。但近年来，人们发现，街头巷尾曾经随处可见的&ldquo;高档烟酒回收&rdquo;等字样的牌子正在悄然消失。</p><p>&ldquo;八项规定前，一个端午或者中秋下来光卖回收的烟酒就能赚上万元，现在很冷清了。&rdquo;江西南昌市滕王阁周边的一家烟酒店老板说。</p><p>粽子、月饼、大闸蟹这些一度被&ldquo;天价&rdquo;异化的食品，重新回归百姓餐桌，成为庆祝佳节的应景美味；寓意亲人团聚、祈盼美满的传统节日，找回应有的民俗特色和文化底蕴；&ldquo;八元一碗的面没人吃，八十元一碗的面销路好&rdquo;的现象成为历史。</p><p>高档会所、酒店也开始走&ldquo;亲民&rdquo;路线&mdash;&mdash;</p><p>位于广州著名景区白云山山顶的&ldquo;望景餐厅&rdquo;，曾是包括已落马的广州市委原书记万庆良在内的不少官员涉足的私人会所，最低消费8888元。中央整治&ldquo;会所中的歪风&rdquo;后，这家会所开始向大众化经营转型。</p><p>如今，过去的会所已经变成一家米粉店。&ldquo;以前经过这里总是大门紧闭，现在爬山爬到这里正好吃一碗米粉，歇歇脚，看看周围美丽的景色。&rdquo;市民张彬彬说。</p><p>位于杭州西湖风景区内的几十家会所一时间全部关停转型，按照公益性、大众化、可进入性原则，还湖于民、还园于民、还景于民。</p><p>如今，普通杭州市民能够走进当年&ldquo;可望而不可进&rdquo;的&ldquo;神秘会所&rdquo;中喝茶了。&ldquo;党中央抓八项规定，真是说到做到，真真切切为老百姓着想呐。&rdquo;年过八旬的退休职工孙枫说。</p><p>踏石留印，抓铁有痕。</p><p>&mdash;&mdash;5年来，中央八项规定精神的贯彻落实，在政治上打造&ldquo;青山绿水&rdquo;，党内政治生态得以改善。</p><p>&ldquo;这些年变化最大的是干部们的观念。&rdquo;工作30多年的广东省一名副厅长说，&ldquo;现在有了八项规定，公务接待简单一点，甚至不接待也没关系，大家都习以为常了。&rdquo;</p><p>党内上下级关系、同志关系变清爽了，党员干部逐渐摆脱应付人际关系的烦恼，繁文缛节、迎来送往的少了，生活方式变了，干事创业的精气神明显提升。</p><p>抓作风密切了党群、干群关系。&ldquo;只顾自己奔小康、不管他人喝米汤&rdquo;&ldquo;办事不公、优亲厚友、吃拿卡要&rdquo;式的干部少了，一大批&ldquo;合格党员&rdquo;&ldquo;担当干部&rdquo;&ldquo;贴心党组织&rdquo;以务实的改革精神、清廉的工作作风，察民情、晓民意、解民忧、排民难。</p><p>&mdash;&mdash;5年来，中央八项规定精神的贯彻落实，让一度笼罩在潜规则之下的政商关系回归正常。</p><p>&ldquo;给县领导的烟，被退回到自己手里，当时心里真没底，担心以后不好办事。&rdquo;2014年8月，来自辽宁的一家企业与河南兰考签订了招商引资协议，送礼送不出去的尴尬让项目负责人心里没了底。2016年1月，一条投资10亿元的生产线顺利投产。这位没花一分钱请客吃饭的负责人感慨，干部作风过硬，让企业得了真实惠。</p><p>&ldquo;相敬如宾，切莫勾肩搭背。&rdquo;</p><p>&ldquo;亲&rdquo;&ldquo;清&rdquo;新型政商关系，消除了那些抑制市场主体活力、损害公平竞争的不利因素，为经济发展营造出更良性长久的市场环境。</p><p>&mdash;&mdash;5年来，中央八项规定精神的贯彻落实，把匡正党风与弘扬良好道德风尚结合起来，让勤俭节约蔚然成风，社会主义核心价值观日益深入人心。</p><p>曾几何时，在沿海侨乡福建长乐市，婚丧喜庆讲排场、比阔气，大操大办、分发红包之风甚嚣尘上，&ldquo;结不起婚&rdquo;&ldquo;死不起人&rdquo;成为当地老百姓的难言之隐、心头之痛。</p><p>去年以来，在中央八项规定精神深化落实中，一场移风易俗的&ldquo;清风运动&rdquo;让多年的歪风陋俗得到根本整治，群众如释重负，拍手称快。</p><p>褪尽奢华见真淳。</p><p>从铺张浪费到勤俭节约，从注重&ldquo;人情消费&rdquo;回归友善真情，从违背本心适应潜规则到理直气壮坚守明规矩&hellip;&hellip;</p><p>人心是最大的政治，民意是最好的褒奖。</p><p>国家统计局2017年6月进行的民情民意电话调查显示，94.8%的受调查对象肯定以习近平同志为核心的党中央制定和落实中央八项规定的成效，91.8%对中央八项规定长期执行有信心，85.5%认为中央八项规定实施以来身边党员干部工作作风有明显改进，89.5%认为党员干部工作作风带动社会风气有明显改进。</p><p>2017年全国党风廉政建设民意调查同时显示，92.7%的群众认为党的十八大以来落实中央八项规定精神、纠正&ldquo;四风&rdquo;有很大的效果，比2013年提高11.4个百分点。</p><p>风清则气正，气正则心齐，心齐则事成。</p><p>中央八项规定精神的深入贯彻落实，极大提升了党在人民心目中的形象和威信，极大增强了对以习近平同志为核心的党中央的高度信赖和衷心拥戴，为党和国家事业全面开创新局面提供了坚强保证。</p><p>回望过往，成绩令人振奋，启示愈加深刻：</p><p>&mdash;&mdash;坚持从政治上认识和对待作风问题，旗帜鲜明讲政治，不断强化&ldquo;四个意识&rdquo;，坚决维护以习近平同志为核心的党中央权威和集中统一领导。</p><p>&mdash;&mdash;坚持以上率下层层带动，抓住&ldquo;关键少数&rdquo;，压实管党治党主体责任，形成全党上下齐抓作风建设的强大声势。</p><p>&mdash;&mdash;坚持以人民为中心的工作导向，凡是人民群众不满意的就改，凡是人民群众期盼的就做，以实实在在的工作成效兑现承诺、取信于民。</p><p>&mdash;&mdash;坚持以钉钉子精神抓牢抓实抓成，锲而不舍、持之以恒，在坚持中深化、在深化中坚持，不断把作风建设推向前进。</p><p style="text-align:center"><img src="http://p1.ifengimg.com/a/2017_39/c57ff3ea65b05a4_size59_w600_h450.jpg" alt="" /></p><p><span style="font-family: 楷体_GB2312, 楷体;"><span style="font-size: 14px;">在泉南高速莲花收费站，江西省萍乡市莲花县纪委暗访督察组在检查公车私用情况（2016年9月14日摄）。新华社记者赖星摄</span></span></p><p>&mdash;&mdash;坚持破立并举标本兼治，用改革的思路和办法破解作风顽症，扎牢织密制度之笼，铲除不良作风滋生蔓延的温床和土壤。</p><p>&hellip;&hellip;</p><p>展望未来，问题令人清醒，犹须敬终如始：</p><p>&mdash;&mdash;&ldquo;不敢&rdquo;的问题已初步解决，&ldquo;不想&rdquo;&ldquo;不愿&rdquo;的内在自觉尚未普遍形成；</p><p>&mdash;&mdash;不良作风树倒根在，隐形变异问题时有发生，反弹回潮的隐患和压力犹存；</p><p>&mdash;&mdash;责任落实压力传导不到位，有的领导机关、领导干部存在&ldquo;灯下黑&rdquo;、&ldquo;手电筒只照别人不照自己&rdquo;等问题；</p><p>&mdash;&mdash;制度体系尚不完备，制度落地生根还有差距。</p><p>&hellip;&hellip;</p><p>逆水行舟，一篙不可放缓；滴水穿石，一滴不可弃滞。</p><p>习近平总书记明确强调：&ldquo;作风建设是攻坚战，也是持久战&rdquo;&ldquo;作风建设永远在路上，永远没有休止符&rdquo;。</p><p>党的十九大即将胜利召开，这是在全面建成小康社会决胜阶段、中国特色社会主义发展关键时期召开的一次十分重要的大会。</p><p>我们坚信，在以习近平同志为核心的党中央坚强领导下，全党上下团结一心，持续深入推进全面从严治党，驰而不息正风肃纪，我们党必将凝聚起更加磅礴的力量，带领全体人民在实现中华民族伟大复兴中国梦的伟大征程上不断迈向新的胜利！</p><p>新华社记者朱基钗、罗沙、荣启涵、李亚红<span class="ifengLogo"><a href="http://www.ifeng.com/" target="_blank"><img src="http://p2.ifengimg.com/a/2016/0810/204c433878d5cf9size1_w16_h16.png"/></a></span></p>
+                    <!-- 正文end -->
+                </div>
+                
+
+                
+                <!-- 调查 begin -->
+                <!-- 调查end -->
+                <div class="yc_con_txt">
+                    <p class="yc_zb">责编：罗潇 PN130</p>
+                </div>
+                <!-- share begin-->
+                <div class="txt_share_box">
+                    <div class="txt_share clearfix">
+                        <a class="yc_sina js_swShare">微博</a>
+                        <a class="yc_wx js_wx" data-pop="share_bar_pop_wx">微信好友</a>
+                        <a class="yc_wxq js_wx" data-pop="share_bar_pop_wxq">朋友圈</a>
+                        <a class="yc_qzone js_qzShare">QQ空间</a>
+                    </div>
+                    <div class="share_bar_pop share_bar_pop_wx">
+                        <div class="share_bar_popin clearfix">
+                            <img src="http://qrcode.ifeng.com/2013/12/20/d0dae34b88fc0cc86e305ce4c60e1670.png" width="78" height="78" class="js_qrcode">
+                            <p>用微信扫描二维码
+                                <br>分享至好友</p>
+                            <div class="share_bar_close"></div>
+                        </div>
+                    </div>
+                    <div class="share_bar_pop share_bar_pop_wxq">
+                        <div class="share_bar_popin clearfix">
+                            <img src="http://qrcode.ifeng.com/2013/12/20/d0dae34b88fc0cc86e305ce4c60e1670.png" width="78" height="78" class="js_qrcode">
+                            <p>用微信扫描二维码
+                                <br>分享至朋友圈</p>
+                            <div class="share_bar_close"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- share end -->
+                <!-- comment begin -->
+                <div class="yc_cmt" id="cmtBox">
+                    <div id="js_cmtContainer"></div>
+                    <style>
+                                .mod-showAllComment .noMore{display: none;}
+                            </style>
+                            <script>
+
+                                if(glue.device.type =="pc"){
+                                    document.write('<link rel="stylesheet" href="http://p0.ifengimg.com/fe/responsiveDetail/styles/responsiveDetail_depmodules_pc_b7bbeb1d.min.css">');
+                                }
+
+                                if(glue.device.type =="mobile"){
+                                    document.write('<link rel="stylesheet" href="http://p0.ifengimg.com/fe/responsiveDetail/styles/responsiveDetail_depmodules_mobile_568fbebe.min.css">');
+                                }
+
+
+                                if(glue.device.type =="pad"){
+                                    document.write('<link rel="stylesheet" href="http://p0.ifengimg.com/fe/responsiveDetail/styles/responsiveDetail_depmodules_pad_a8e14e37.min.css">');
+                                }
+
+                                requirejs.config({
+                                    paths: {
+                                        "jquery#1.8.1": "http://y1.ifengimg.com/fe/jQuery/jquery-1.8.1.min",
+                                        "artTemplate#3.0.3" : "http://p0.ifengimg.com/fe/responsiveDetail/scripts/responsiveDetail_depmodules_9f1866ac.min",
+                                        "cookie_global#1.0.2" : "http://p0.ifengimg.com/fe/responsiveDetail/scripts/responsiveDetail_depmodules_9f1866ac.min",
+                                        "F#1.2.0": "http://y0.ifengimg.com/base/origin/F-amd-1.2.0.min"
+                                    },
+                                    waitSeconds: 20,
+                                    shim: {}
+                                });
+
+                                require(['jquery#1.8.1'], function($) {
+                                    $.noConflict(true);
+                                });
+                                if (glue.device.type == "pad") {
+                                    requirejs.config({
+                                        paths:{
+                                            "news_F_comment#1.1.5" : "http://p0.ifengimg.com/fe/fashion_ssxs/scripts/fashion_ssxs_depmodules_pad_f723a5aa.min"
+
+                                        },
+                                        waitSeconds: 20,shim: {}
+                                    });
+                                } else if (glue.device.type == "mobile") {
+                                    requirejs.config({
+                                        paths: {
+                                            "news_F_comment#1.1.5" : "http://p0.ifengimg.com/fe/fashion_ssxs/scripts/fashion_ssxs_depmodules_mobile_32e1cf1d.min"
+                                        },
+                                        waitSeconds: 20,
+                                        shim: {}
+                                    });
+                                } else if (glue.device.type == "pc") {
+                                    requirejs.config({
+                                        paths: {
+                                            "news_F_comment#1.1.5" : "http://p0.ifengimg.com/fe/fashion_ssxs/scripts/fashion_ssxs_depmodules_pc_2e163021.min"
+                                        },
+                                        waitSeconds: 20,
+                                        shim: {}
+                                    });
+                                }
+
+                                if (device.type === "pc") {
+
+                                    creatTasker('auto', ["F"], function(F) {
+
+                                        var top = F.offset(F.query("#cmtBox")).top - F.height(window);
+                                        var commentLoad = false;
+
+                                        var commentIt = function() {
+                                            commentLoad = true;
+                                            require(['news_F_comment#1.1.5', 'detail'], function(cmt, detail) {
+                                                var data = {
+                                                    'docUrl':detail.commentUrl || detail.docUrl,
+                                                    'pcUrl':detail.docUrl,
+                                                    'docTitle': detail.docName,
+                                                    'speUrl': detail.speUrl || '',
+                                                    'skey': detail.skey,
+                                                    'hotLimit':2,
+                                                    'newLimit':2,
+                                                    'cmtViewUrl':'http://gentie.ifeng.com/view.html',
+                                                    'cmtViewSpecialUrl':'http://gentie.ifeng.com/view.html'
+                                                }
+                                                new cmt(glue).create('js_cmtContainer', data);
+                                            });
+                                        }
+
+                                        if (F.scrollTop(window) > top) {
+                                            commentIt();
+                                        } else {
+                                            F.on(window, "scroll", function() {
+                                                if (commentLoad === false) {
+                                                    top = F.offset(F.query("#cmtBox")).top - F.height(window);
+                                                    if (F.scrollTop(window) > top) {
+                                                        commentIt();
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    }, "next", "延迟加载评论-PC");
+                                } else {
+                                    creatTasker('auto', ["FM"], function(F) {
+                                        var top = F.one("cmtBox").getBoundingClientRect().top + document.body.scrollTop - window.innerHeight;
+                                        var commentLoad = false;
+
+                                        var commentIt = function() {
+                                            commentLoad = true;
+                                            require(['news_F_comment#1.1.5', 'detail'], function(cmt, detail) {
+                                                var data = {
+                                                    'docUrl':detail.commentUrl,
+                                                    'pcUrl':detail.docUrl,
+                                                    'docTitle': detail.docName,
+                                                    'speUrl': detail.speUrl || '',
+                                                    'skey': detail.skey,
+                                                    'hotLimit':2,
+                                                    'newLimit':2,
+                                                    'cmtViewUrl':'http://gentie.ifeng.com/view.html',
+                                                    'cmtViewSpecialUrl':'http://gentie.ifeng.com/view.html'
+                                                }
+                                                new cmt(glue).create('js_cmtContainer', data);
+                                            });
+
+                                        };
+
+                                        if (document.body.scrollTop > top) {
+                                            commentIt();
+                                        } else {
+                                            F.addEvent(window, "scroll", function() {
+                                                if (commentLoad === false) {
+                                                    top = F.one("cmtBox").getBoundingClientRect().top + document.body.scrollTop - window.innerHeight;
+                                                    if (document.body.scrollTop > top) {
+                                                        commentIt();
+                                                    }
+                                                }
+                                            });
+                                        }
+
+                                    }, "next", "延迟加载评论-Mobile");
+                                }
+
+                            </script>
+                </div>
+                <script>
+                if(device.type === "pc"){
+                    document.write('<style>.mod-commentTextareaMiddle .w-areaBox{width: 639px;}</style>');
+                }
+                </script>
+                <style>
+                    .yc_cmt img{display:inline;}
+                    .clearfix{*zoom:1}
+                    .clearfix:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+                </style>
+                <!-- comment end -->
+                <!-- intro begin -->
+                                    <div class="yc_intro clearfix">
+                    <div class="yc_intro_l ph_clearfix">
+                        <div class="yc_intro_l_ph">
+                            <img src="http://p3.ifengimg.com/a/2016/0518/4e76b13c5f17d09size13_w255_h60.jpg" alt="" title="" />
+                            <p>三年来，改革全面推进。<br />
+                               凤凰网推出专页，记录这个新时代。</p>
+                        </div>
+                        <a href="http://news.ifeng.com/xijinping/" target="_blank">进入频道首页</a>
+                    </div>
+                    <div class="yc_intro_r clearfix">
+                        <img src="http://p2.ifengimg.com/a/2016/0523/99576d91be99978size11_w80_h80.png" alt="" title="" />
+                        <div class="fl">
+                            <h4>凤凰网官方微信号</h4>
+                            <p>想看新闻热点、敏感事件、
+                                <br />独家分析？扫这里</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- intro end -->
+                <!-- recommend begin-->
+                <div class="yc_rec clearfix">
+                                        <div class="rec_lis">
+                        <h4>推荐阅读</h4>
+                        <ul class="js_recColumnName">
+                            <li data-idx="0" data-listUrl="http://news.ifeng.com/listpage/101175/1/list.shtml" class="cur">厦门金砖峰会</li>
+                            <li data-idx="1" data-listUrl="http://news.ifeng.com/listpage/70374/1/list.shtml">暖新闻</li>
+                            <li data-idx="2" data-listUrl="http://news.ifeng.com/listpage/33984/1/list.shtml">在人间</li>
+                            <li data-idx="3" data-listUrl="http://news.ifeng.com/listpage/71235/1/list.shtml">图片特刊</li>
+                            <li data-idx="4" data-listUrl="http://news.ifeng.com/listpage/71095/1/list.shtml">大鱼漫画</li>
+                     
+                    </div>
+                    <div class="rec_con js_recColumnList">
+                        <div class="con_box" style="display: block;">
+                            <div class="con_lis">
+                                
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170928/52213047_0.shtml" target="_blank">习近平领导强军兴军纪实：统帅与士兵心连心</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-28 22:24:25</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170928/52213047_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                                
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170928/52211203_0.shtml" target="_blank">习近平外出调研时的菜单和餐费曝光</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-28 20:04:16</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170928/52211203_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                                
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170926/52169244_0.shtml" target="_blank">习近平8月关键词：担当</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-26 14:35:42</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170926/52169244_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                                
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170925/52149864_0.shtml" target="_blank">习近平指导京津冀协同发展这几年</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-25 10:24:08</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170925/52149864_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                                
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170925/52148106_0.shtml" target="_blank">习近平谈如何学哲学用哲学</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-25 08:16:25</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170925/52148106_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="con_box">
+                                                        <div class="con_lis">
+                            
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170929/52218907_0.shtml" target="_blank">眼看孩子将从自行车摔落 交警1秒钟冲到车旁扶住</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-29 07:35</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170929/52218907_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170928/52210819_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p0.ifengimg.com/pmop/2017/0928/5209C78C0009911C5903F983CF8F74E42BCC4DAF_size123_w600_h337.jpeg" alt="邯郸小学生被防护网卡半空，老兵奋不顾身攀窗救人" title="邯郸小学生被防护网卡半空，老兵奋不顾身攀窗救人" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170928/52210819_0.shtml" target="_blank">邯郸小学生被防护网卡半空，老兵奋不顾身攀窗救人</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-28 19:35</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170928/52210819_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170927/52191371_0.shtml" target="_blank">游客新手机遗失高速公路上 警察摸黑徒步3公里找回</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-27 22:36</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170927/52191371_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170927/52186935_0.shtml" target="_blank">湖北独臂医生行医大山26载：不想别人遇到我的不幸</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-27 15:30</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170927/52186935_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170927/52184454_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p0.ifengimg.com/pmop/2017/0927/1B603558C75CB3B1B381D491362D53C0E8AA770D_size6_w200_h200.jpeg" alt="暖化了！狗狗帮清洁工主人捡垃圾，3年风雨无阻" title="暖化了！狗狗帮清洁工主人捡垃圾，3年风雨无阻" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170927/52184454_0.shtml" target="_blank">暖化了！狗狗帮清洁工主人捡垃圾，3年风雨无阻</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-27 12:47</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170927/52184454_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="con_box">
+                                                        <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170928/52203608_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p1.ifengimg.com/a/2017_39/55b440ad200f45a_size289_w1000_h667.jpg" alt="《在人间》第128期：治霾关厂后的日子" title="《在人间》第128期：治霾关厂后的日子" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170928/52203608_0.shtml" target="_blank">《在人间》第128期：治霾关厂后的日子</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-28 11:54</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170928/52203608_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170921/52102643_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p1.ifengimg.com/a/2017_38/ed7a74ce35b7c89_size337_w1000_h667.jpg" alt="《在人间》第127期：野蛮生长" title="《在人间》第127期：野蛮生长" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170921/52102643_0.shtml" target="_blank">《在人间》第127期：野蛮生长</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-21 09:54</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170921/52102643_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170915/52006898_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p2.ifengimg.com/a/2017_37/fd8bd6e139f7350_size310_w1000_h667.jpg" alt="《在人间》第126期：被U型锁砸碎的两个家" title="《在人间》第126期：被U型锁砸碎的两个家" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170915/52006898_0.shtml" target="_blank">《在人间》第126期：被U型锁砸碎的两个家</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-15 08:51</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170915/52006898_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170828/51781252_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p1.ifengimg.com/a/2017_35/563c67e57b88777_size194_w1000_h667.jpg" alt="《在人间》第125期：我的爱人" title="《在人间》第125期：我的爱人" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170828/51781252_0.shtml" target="_blank">《在人间》第125期：我的爱人</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-08-28 10:24</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170828/51781252_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170824/51741728_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p2.ifengimg.com/a/2017_34/525b5dad87db350_size420_w1000_h667.jpg" alt="《在人间》第124期：一个民间反扒者的日常" title="《在人间》第124期：一个民间反扒者的日常" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170824/51741728_0.shtml" target="_blank">《在人间》第124期：一个民间反扒者的日常</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-08-24 11:21</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170824/51741728_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="con_box">
+                                                        <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170924/52143099_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p0.ifengimg.com/a/2017_39/10bba648dff507f_size396_w1000_h666.jpg" alt="英拉走后怎样" title="英拉走后怎样" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170924/52143099_0.shtml" target="_blank">英拉走后怎样</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-24 19:29</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170924/52143099_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170912/51970117_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p3.ifengimg.com/a/2017_37/495086b7fa64490_size288_w1000_h667.jpg" alt="骗婚之痛" title="骗婚之痛" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170912/51970117_0.shtml" target="_blank">骗婚之痛</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-12 21:39</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170912/51970117_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170911/51947768_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p1.ifengimg.com/a/2017_37/03844306580a625_size527_w1000_h666.jpg" alt="极地捕鲸者" title="极地捕鲸者" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170911/51947768_0.shtml" target="_blank">极地捕鲸者</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-11 08:08</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170911/51947768_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170907/51913637_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p0.ifengimg.com/a/2017_37/bca2f6e67f5e97e_size407_w1000_h667.jpg" alt="贝宁的儿童奴工" title="贝宁的儿童奴工" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170907/51913637_0.shtml" target="_blank">贝宁的儿童奴工</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-07 23:06</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170907/51913637_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170907/51911108_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p1.ifengimg.com/a/2017_36/d9468d5f8306960_size407_w1000_h666.jpg" alt="分娩之痛" title="分娩之痛" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170907/51911108_0.shtml" target="_blank">分娩之痛</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-07 18:12</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170907/51911108_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="con_box">
+                                                        <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170922/52124049_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p3.ifengimg.com/a/2017_38/c8f56924741add9_size99_w900_h500.jpg" alt="大鱼漫画：都要停止交易了，还不知道什么是比特币？" title="大鱼漫画：都要停止交易了，还不知道什么是比特币？" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170922/52124049_0.shtml" target="_blank">大鱼漫画：都要停止交易了，还不知道什么是比特币？</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-22 17:27</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170922/52124049_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170915/52008916_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p0.ifengimg.com/a/2017_37/dc1af902476f120_size198_w900_h500.jpg" alt="大鱼漫画：爱搞政变的CIA干过好事？摧毁台湾核计划" title="大鱼漫画：爱搞政变的CIA干过好事？摧毁台湾核计划" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170915/52008916_0.shtml" target="_blank">大鱼漫画：爱搞政变的CIA干过好事？摧毁台湾核计划</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-15 11:30</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170915/52008916_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170907/51912432_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p2.ifengimg.com/a/2017_36/267009972f3c2db_size146_w640_h682.jpg" alt="大鱼漫画：敢炒房就杀头——古人如何调控房价？" title="大鱼漫画：敢炒房就杀头——古人如何调控房价？" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170907/51912432_0.shtml" target="_blank">大鱼漫画：敢炒房就杀头——古人如何调控房价？</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-07 20:29</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170907/51912432_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170902/51847463_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p2.ifengimg.com/a/2017_35/80c826e5a6cb06e_size265_w900_h500.png" alt="大鱼视频：金砖五国的历史，其实是一部励志偶像剧" title="大鱼视频：金砖五国的历史，其实是一部励志偶像剧" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170902/51847463_0.shtml" target="_blank">大鱼视频：金砖五国的历史，其实是一部励志偶像剧</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-02 13:39</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170902/51847463_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170901/51842172_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p1.ifengimg.com/a/2017_35/0b4ef389dad70df_size209_w900_h500.png" alt="从穷苦广东人到泰国第一家族，他信家族怎样炼成？" title="从穷苦广东人到泰国第一家族，他信家族怎样炼成？" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170901/51842172_0.shtml" target="_blank">从穷苦广东人到泰国第一家族，他信家族怎样炼成？</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-09-01 20:00</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170901/51842172_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="con_box">
+                                                        <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170116/50583053_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p3.ifengimg.com/a/2017_03/aadc0d44da4c7a3_size15_w565_h365.jpg" alt="蔡英文默认“台湾共和国总统” 蓝委：不可姑息！" title="蔡英文默认“台湾共和国总统” 蓝委：不可姑息！" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170116/50583053_0.shtml" target="_blank">蔡英文默认“台湾共和国总统” 蓝委：不可姑息！</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-01-16 15:09</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170116/50583053_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170109/50541681_0.shtml" target="_blank">“港独”分子返港后遭殴打 衣服被扯破遭淋奶茶(图)</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-01-09 02:04</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170109/50541681_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170106/50532287_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p3.ifengimg.com/a/2017_01/b927f9748ba7e86_size12_w317_h220.jpg" alt="台学者：岛内统一话题渐热 “武统”不再是禁忌" title="台学者：岛内统一话题渐热 “武统”不再是禁忌" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170106/50532287_0.shtml" target="_blank">台学者：岛内统一话题渐热 “武统”不再是禁忌</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-01-06 07:54</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170106/50532287_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170105/50526289_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p2.ifengimg.com/a/2017_01/e2792c872fc271a_size44_w650_h488.jpg" alt="马英九：台湾面对的不是“独立” 而是要不要统一" title="马英九：台湾面对的不是“独立” 而是要不要统一" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170105/50526289_0.shtml" target="_blank">马英九：台湾面对的不是“独立” 而是要不要统一</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-01-05 10:14</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170105/50526289_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                            <div class="con_lis">
+                            <a href="http://news.ifeng.com/a/20170103/50514366_0.shtml" target="_blank"><img src="http://d.ifengimg.com/w130_h94/p0.ifengimg.com/a/2017_01/c2d14ef9d1f2310_size98_w600_h400.jpg" alt="邱毅：蔡英文政权会崩溃垮台 两岸将完成统一" title="邱毅：蔡英文政权会崩溃垮台 两岸将完成统一" /></a>
+                                <div>
+                                    <h4><a href="http://news.ifeng.com/a/20170103/50514366_0.shtml" target="_blank">邱毅：蔡英文政权会崩溃垮台 两岸将完成统一</a></h4>
+                                    <p class="clearfix ph_clearfix"><span class="rec_time">2017-01-03 09:34</span><span class="rec_num js_cmtNum" data-url="http://news.ifeng.com/a/20170103/50514366_0.shtml">0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rec_more"><a href="#" target="_blank">查看更多新闻</a></div>
+                    </div>
+                </div>
+                <!-- recommend end -->
+                <!-- wx_ph begin-->
+                      <div class="wx_ph"><img src="http://p2.ifengimg.com/a/2016/0523/105e64b6a68adb5size40_w345_h166.png" /></div>
+                <!-- wx_ph end -->
+                
+            </div>
+            <!--任意位置插入视频 删除s_common_detail_videoset碎片-->
+            <!--任意位置插入幻灯-->
+            <!-- yc_con_r begin -->
+            <div class="yc_con_r">
+
+                <div class="ycR_gg"><a href="http://news.ifeng.com/listpage/71095/1/list.shtml" target="_blank"><img src="http://p2.ifengimg.com/a/2016/1010/6b1df14a36ed2afsize33_w300_h600.jpg" /></a></div>
+                <div class="ycR_intro">
+                    <h3 class="ycR_tit">栏目推荐</h3>
+                    <div class="clearfix"><a href="http://news.ifeng.com/listpage/70374/1/list.shtml" target="_blank">暖新闻</a><a href="http://news.ifeng.com/xijinping/" target="_blank">新改革时代<a href="http://news.ifeng.com/listpage/33984/1/list.shtml" target="_blank">在人间</a><a href="http://news.ifeng.com/listpage/71095/1/list.shtml" target="_blank">大鱼漫画</a><a href="http://news.ifeng.com/listpage/70296/1/list.shtml" target="_blank">兰台说史</a><a href="http://culture.ifeng.com/listpage/57508/1/list.shtml" target="_blank">洞见</a><a href="http://news.ifeng.com/o/dynpage/56-/1/plist.shtml" target="_blank">凤凰大参考</a><a href="http://news.ifeng.com/o/dynpage/64-/1/plist.shtml" target="_blank">政能亮</a><a href="http://news.ifeng.com/o/dynpage/41-/1/plist.shtml" target="_blank">凤凰论</a></div>
+                </div>
+                
+<!--s_news_yuanchuang_ad_160907_juxing01 2017.05.01 15:08:28-->
+<script type="text/javascript">try{aptracker.add(16815);}catch(e){}</script>
+
+<!--/s_news_yuanchuang_ad_160907_juxing01-->
+
+                <div class="ycR_lis">
+                    <h3 class="ycR_tit">专题策划</h3>
+                    <div class="ycR_img"><a href="http://news.ifeng.com/mainland/special/jj90zn/" target="_blank"><img src="http://p3.ifengimg.com/a/2017/0801/8c275f95e1142b1size52_w270_h105.jpg" alt="" title="" /></a></div>
+                    <ul>
+ <li><a href="http://news.ifeng.com/mainland/special/jj90zn/" target="_blank">砥砺血性 初心如磐_建军90周年</a></li>
+     <li><a href="http://news.ifeng.com/hongkong/special/hk20/" target="_blank">迎面更有千千百年_香港回归20周年</a></li>
+<li><a href="http://news.ifeng.com/mainland/special/ydylgjhzgflt/" target="_blank">志合者 不以山海为远_聚焦一带一路国际合作高峰论坛</a></li>
+
+         <li><a href="http://news.ifeng.com/mainland/special/2017qglh/" target="_blank">让改革更带感_2017全国两会</a></li>
+                     
+               
+                      
+                        
+                    </ul>
+                </div>
+                
+<!--s_news_yuanchuang_ad_160907_juxing02 2017.05.01 15:08:28-->
+<script type="text/javascript">try{aptracker.add(16816);}catch(e){}</script>
+
+<!--/s_news_yuanchuang_ad_160907_juxing02-->
+
+            </div>
+            <!-- yc_con_r end -->
+        </div>
+    </div>
+    <!-- foot_top_box begin -->
+    <div class="foot_top_box"><a href="http://news.ifeng.com/o/dynpage/64-/1/plist.shtml" target="_blank"><img src="http://p0.ifengimg.com/a/2016/0922/d29d70ee87f06f8size33_w1000_h90.jpg" /></a></div>
+    
+    <!-- foot_top_box end -->
+    <!-- footer begin -->
+    <!--footer重要注释误删begin-->
+<style>.footer{width:1000px;margin:0 auto;border-top:1px solid #ccc}.footer a{color:#000;font-size:12px;text-decoration:none}.footer a:hover{color:#f54343;text-decoration:underline}.footer .footlink{height:28px;padding-top:15px;border-top:1px solid #fff;overflow:hidden;color:#000;line-height:28px;font-size:12px}.footer .fk_l{float:left}.footer .fk_r{float:right;width:200px}.footer .fk_l a{padding:0 7px;border-right:1px solid #000}.footer .fk_l .nolpad{padding-left:0}.footer .fk_l .noborder{border:none}.footer .fk_r ul{overflow:hidden;margin:0;padding:0;list-style:none}.footer .fk_r ul li{float:left;height:28px;overflow:hidden}.footer .fk_r ul .l_bg001{background:url(//p2.ifengimg.com/a/2016_21/nav0416_14_fd540caa-fd540caadc.gif) no-repeat left 9px;padding-left:19px}.footer .fk_r ul .l_bg002{background:url(//p2.ifengimg.com/a/2016_21/nav0416_17-68c300b50b.gif) no-repeat left 9px;padding-left:17px;margin-left:18px}.footer .copyright{font-family:Arial,"宋体";color:#666;height:28px;text-align:center;overflow:hidden;line-height:28px}.footer .copyright span{padding-right:12px;font-size:12px}</style>
+<div id="footer" class="footer mt02">
+    <div class="footlink clearfix">
+        <div class="fk_l"><a class="nolpad" href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a><a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a><a href="http://biz.ifeng.com/" target="_blank">广告服务</a><a href="http://career.ifeng.com/" target="_blank">诚征英才</a><a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a><a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a><a href="http://www.ifeng.com/corp/feedback/" target="_blank">意见反馈</a><a href="http://phtv.ifeng.com/intro/" target="_blank" class="noborder">凤凰卫视介绍</a></div>
+        <div class="fk_r">
+            <ul class="clearfix">
+                <li class="l_bg001"><a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+                <li>·<a href="http://v.ifeng.com/documentary/" target="_blank" title="纪实">纪实</a></li>
+                <li>·<a href="http://v.ifeng.com/live/" target="_blank" title="直播">直播</a></li>
+                <li class="l_bg002"><a href="http://phtv.ifeng.com/" target="_blank" title="凤凰卫视">凤凰卫视</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright"><span>凤凰新媒体</span><span>版权所有</span><span>Copyright © 2016 Phoenix New Media Limited All Rights Reserved.</span></div>
+</div>
+<!--footer重要注释误删end-->
+    <!-- footer end -->
+    <!-- to_top begin -->
+    <div class="to_top sd_ie6"><img src="http://y0.ifengimg.com/fe/zxyc-article/images/toTop_91bf0b47.png" /></div>
+    <script src="http://p0.ifengimg.com/fe/zxyc-article/scripts/20161110/detail_89074a89.js"></script>
+    <!-- to_top end -->
+    <!-- side_share begin-->
+    <div class="side_share_box sd_ie6">
+        <div class="side_share js_shareList clearfix">
+            <a class="yc_sina js_swShare"></a>
+            <a class="yc_wx js_wx_side" data-pop="side_wx"></a>
+            <a class="yc_wxq js_wx_side" data-pop="side_wxq"></a>
+            <a class="yc_qzone js_qzShare"></a>
+        </div>
+        <div class="side_pop side_wx">
+            <img src="http://qrcode.ifeng.com/2013/12/20/d0dae34b88fc0cc86e305ce4c60e1670.png" class="js_qrcode" width="100" height="100" />
+        </div>
+        <div class="side_pop side_wxq">
+            <img src="http://qrcode.ifeng.com/2013/12/20/d0dae34b88fc0cc86e305ce4c60e1670.png" class="js_qrcode" width="100" height="100" />
+        </div>
+    </div>
+    <!-- side_share end -->
+    <!-- bottom_ph begin -->
+    <div class="s_anniu">
+        <a href="http://help.ifeng.com/" class="a_message"></a>
+        <a href="#top" class="a_back"></a>
+    </div>
+    <!-- bottom_ph end -->
+    <script> 
+function getChannelInfo(){
+return "http://news.ifeng.com/xijinping/quanweijiedu/";
+} 
+</script>
+    
+        <script> var sta_collection_time = new Date().getTime();</script>
+<script id="sta_collection_new">
+    window.analytics(encodeURIComponent(window.location.href));
+    setTimeout(function() {
+        window.aptracker.collection();
+        window.remain();
+    }, 800);
+</script>
+    
+    
+        <div id="ifeng_da_le" style="width: 1px; height: 1px;">
+  <script src="//m0.ifengimg.com/ifeng/sources/120331-iImpression.js"></script>
+</div>
+    
+
+</body>
+
+</html>

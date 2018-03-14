@@ -1,0 +1,5 @@
+import cPickle as pickle
+data = range(1000)
+#pickle.dump(data,open("test.pkl","w"))
+data=pickle.loads(open("test.pkl"))
+print data

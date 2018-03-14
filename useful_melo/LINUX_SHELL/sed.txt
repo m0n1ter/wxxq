@@ -1,0 +1,17 @@
+id=item[
+name=item[
+telno=item[
+address=item[
+branch_name=item[
+short_name=item[
+province_id=item[
+city_id=item[
+district_id=item[
+trade_id=item[
+region_id=item[
+open_time=item[
+x=item[
+y=item[
+tag=item[
+category=item[
+review_count=item[

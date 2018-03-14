@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+	<title></title>
+	<script type="text/javascript" src="consId.js"></script>
+	<script type="text/javascript">
+		// Object.prototype.setProperty(navigator, {'userAgent': function() {return 'User-Agent:Mozilla/5.0(Macintosh;IntelMacOSX10_7_0)AppleWebKit/535.11(KHTML,likeGecko)Chrome/17.0.963.56Safari/535.11';}});
+		// console.log(window.navigator.userAgent);
+		function ajax(url) {
+
+          //先声明一个异步请求对象
+          var xmlHttpReg = null;
+          if (window.ActiveXObject) {//如果是IE
+
+              xmlHttpReg = new ActiveXObject("Microsoft.XMLHTTP");
+
+          } else if (window.XMLHttpRequest) {
+
+              xmlHttpReg = new XMLHttpRequest(); //实例化一个xmlHttpReg
+          }
+
+          //如果实例化成功,就调用open()方法,就开始准备向服务器发送请求
+          if (xmlHttpReg != null) {
+              xmlHttpReg.open("get", url, true);
+               xmlHttpReg.send(null);
+              xmlHttpReg.onreadystatechange = doResult; //设置回调函数
+
+          }
+
+          //回调函数
+          //一旦readyState的值改变,将会调用这个函数,readyState=4表示完成相应
+
+          //设定函数doResult()
+          function doResult() {
+          
+              if (xmlHttpReg.readyState == 4) {//4代表执行完成
+                 
+                 
+                  if (xmlHttpReg.status == 200) {//200代表执行成功
+                      //将xmlHttpReg.responseText的值赋给ID为resText的元素
+                      document.getElementById("resText").innerHTML = xmlHttpReg.responseText;
+                      //location.reload();
+                  }
+              }
+
+          }
+        
+
+      }
+		var options = {
+                appId: '52d3080e9c8ca4544d1ac82d9ed93c7f',
+                server: 'https://sec.ly.com/yufeng/udid/c.png'
+            };
+		_dx.ConstID(options,function (e, constId) {
+                if (e) {
+                	document.getElementById("resText").innerHTML = 'error';
+                    console.log('error: ' + e);
+                    //location.reload();
+                    return;
+                }
+                var url = 'https://172.16.24.209:9999/get?constId='+constId;
+                console.log('const-id is ' + constId);
+                document.getElementById("resText").innerHTML = constId;
+                //ajax(url);
+            });
+	</script>
+
+
+</head>
+<body>
+<div id="resText"></div>
+</body>
+</html>
